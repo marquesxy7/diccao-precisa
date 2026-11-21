@@ -1,0 +1,1352 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dicção Precisa — Perca o medo de falar | Bruna Santos, Fonoaudióloga</title>
+<meta name="description" content="Método Dicção Precisa: 5 módulos, 19 aulas práticas e bônus criados por uma fonoaudióloga para você falar com clareza, precisão e segurança em 10 minutos por dia.">
+<meta property="og:title" content="Dicção Precisa — Perca o medo de falar!">
+<meta property="og:description" content="Treine sua dicção com um método prático, criado por uma fonoaudióloga. Acesso vitalício e garantia de 7 dias.">
+<meta property="og:image" content="assets/05-Hero.webp">
+<meta name="theme-color" content="#3D1B14">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..700;1,9..144,300..600&family=Inter:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/05-Hero.webp">
+<style>
+/* ============ TOKENS ============ */
+:root{
+  --cream:#FBF3EC; --cream-2:#F9E5D6; --peach:#F2D8C5; --peach-2:#F2CDB5; --rose:#CCA193;
+  --brown:#572F27; --brown-2:#80544A; --brown-deep:#3D1B14; --ink:#2A130E;
+  --olive:#555A31; --olive-2:#676B4C; --olive-deep:#272C01; --olive-ink:#161902;
+  --gold:#C9A46A; --green:#00A040;
+  --radius:22px; --radius-lg:32px;
+  --shadow:0 1px 2px rgba(61,27,20,.06),0 8px 24px -8px rgba(61,27,20,.18),0 30px 60px -30px rgba(61,27,20,.25);
+  --serif:"Fraunces",Georgia,serif; --sans:"Inter",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --ease:cubic-bezier(.22,1,.36,1);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%;overflow-x:clip}
+body{font-family:var(--sans);color:var(--ink);background:var(--cream);line-height:1.6;overflow-x:clip;-webkit-font-smoothing:antialiased}
+img{max-width:100%;display:block}
+a{color:inherit;text-decoration:none}
+button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
+::selection{background:var(--brown);color:var(--cream)}
+.container{width:min(1160px,100% - 40px);margin-inline:auto}
+.narrow{width:min(820px,100% - 40px);margin-inline:auto}
+section{position:relative}
+.serif{font-family:var(--serif);font-optical-sizing:auto;letter-spacing:-.02em}
+em.it,.it{font-family:var(--serif);font-style:italic;font-weight:400}
+
+/* grain overlay */
+body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:999;opacity:.06;mix-blend-mode:multiply;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+
+/* ============ TYPO ============ */
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:.78rem;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--olive);
+  padding:8px 14px;border-radius:999px;background:rgba(85,90,49,.08);border:1px solid rgba(85,90,49,.18)}
+.eyebrow::before{content:"";width:6px;height:6px;border-radius:50%;background:currentColor;box-shadow:0 0 0 4px rgba(85,90,49,.15)}
+.eyebrow.light{color:var(--peach);background:rgba(242,216,197,.08);border-color:rgba(242,216,197,.22)}
+.eyebrow.light::before{box-shadow:0 0 0 4px rgba(242,216,197,.15)}
+h1,h2,h3{font-family:var(--serif);font-weight:400;letter-spacing:-.025em;line-height:1.05;color:var(--brown-deep)}
+h2{font-size:clamp(2.1rem,4.6vw,3.6rem)}
+h3{font-size:clamp(1.3rem,2vw,1.6rem);line-height:1.2}
+h2 em,h1 em{font-style:italic;color:var(--olive)}
+.lead{font-size:clamp(1.05rem,1.5vw,1.2rem);color:var(--brown-2);max-width:62ch}
+.center{text-align:center}.center .lead{margin-inline:auto}
+.sec-head{display:grid;gap:18px;margin-bottom:56px}
+.sec-head.center{justify-items:center}
+
+/* ============ BUTTONS (border beam + shine + magnetic) ============ */
+@property --a{syntax:"<angle>";initial-value:0deg;inherits:false}
+.btn{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:12px;isolation:isolate;
+  padding:20px 34px;border-radius:999px;font-weight:700;font-size:1.02rem;letter-spacing:.01em;text-transform:uppercase;
+  color:#fff;background:linear-gradient(180deg,#14b354 0%,#00A040 55%,#008a37 100%);
+  box-shadow:0 1px 0 rgba(255,255,255,.35) inset,0 -2px 0 rgba(0,0,0,.15) inset,0 14px 30px -10px rgba(0,160,64,.65),0 0 0 1px rgba(0,110,44,.6);
+  transition:transform .35s var(--ease),box-shadow .35s var(--ease);will-change:transform;overflow:hidden}
+.btn::before{content:"";position:absolute;inset:-2px;border-radius:inherit;z-index:-2;padding:2px;
+  background:conic-gradient(from var(--a),transparent 0 70%,#fff 80%,#d9ffe6 85%,transparent 95%);animation:beam 3.2s linear infinite;
+  -webkit-mask:linear-gradient(#000 0 0) content-box,linear-gradient(#000 0 0);-webkit-mask-composite:xor;mask-composite:exclude}
+.btn::after{content:"";position:absolute;top:0;left:-60%;width:40%;height:100%;z-index:-1;
+  background:linear-gradient(100deg,transparent,rgba(255,255,255,.45),transparent);transform:skewX(-20deg);animation:shine 3.6s var(--ease) infinite}
+.btn:hover{box-shadow:0 1px 0 rgba(255,255,255,.35) inset,0 -2px 0 rgba(0,0,0,.15) inset,0 22px 44px -12px rgba(0,160,64,.8),0 0 0 1px rgba(0,110,44,.6)}
+.btn svg{width:20px;height:20px;transition:transform .35s var(--ease)}
+.btn:hover svg{transform:translateX(4px)}
+.btn.lg{padding:24px 42px;font-size:1.1rem}
+.btn.block{width:100%}
+@keyframes beam{to{--a:360deg}}
+@keyframes shine{0%,55%{left:-60%}100%{left:130%}}
+.btn-ghost{display:inline-flex;align-items:center;gap:8px;padding:12px 20px;border-radius:999px;font-weight:600;font-size:.9rem;
+  background:var(--brown-deep);color:var(--cream);transition:.3s var(--ease)}
+.btn-ghost:hover{background:var(--olive-deep)}
+.cta-wrap{display:grid;justify-items:center;gap:14px;margin-top:44px}
+.cta-micro{display:flex;flex-wrap:wrap;gap:8px 18px;justify-content:center;font-size:.85rem;color:var(--brown-2)}
+.cta-micro span{display:inline-flex;align-items:center;gap:6px}
+.cta-micro svg{width:16px;height:16px;color:var(--olive)}
+.pay{height:16px;width:auto;opacity:.85}
+
+/* ============ ANNOUNCEMENT + NAV ============ */
+.topbar{background:var(--brown-deep);color:var(--peach);font-size:.8rem;font-weight:500;letter-spacing:.06em;text-transform:uppercase;overflow:hidden;white-space:nowrap;position:relative;z-index:60}
+.marquee{display:flex;width:max-content;animation:mq 38s linear infinite}
+.marquee span{padding:11px 22px;display:inline-flex;align-items:center;gap:22px}
+.marquee span::after{content:"✦";color:var(--gold)}
+@keyframes mq{to{transform:translateX(-50%)}}
+.nav{position:sticky;top:0;z-index:50;transition:.4s var(--ease)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 0;transition:.4s var(--ease)}
+.nav.scrolled{background:rgba(251,243,236,.72);backdrop-filter:blur(16px) saturate(1.4);-webkit-backdrop-filter:blur(16px) saturate(1.4);border-bottom:1px solid rgba(87,47,39,.08)}
+.nav.scrolled .nav-in{padding:10px 0}
+.nav .logo{height:34px;width:auto}
+.nav-links{display:flex;gap:28px;font-size:.9rem;font-weight:500;color:var(--brown-2)}
+.nav-links a{position:relative}
+.nav-links a::after{content:"";position:absolute;left:0;bottom:-4px;height:1px;width:100%;background:currentColor;transform:scaleX(0);transform-origin:right;transition:transform .4s var(--ease)}
+.nav-links a:hover::after{transform:scaleX(1);transform-origin:left}
+.progress{position:fixed;top:0;left:0;height:3px;width:100%;transform-origin:0 50%;transform:scaleX(0);background:linear-gradient(90deg,var(--olive),var(--gold),var(--brown));z-index:100}
+
+/* ============ HERO ============ */
+.hero{margin-top:-72px;padding:150px 0 90px;min-height:min(100svh,920px);display:flex;align-items:center;overflow:hidden;
+  background:url(assets/05-Hero.webp) calc(76vw - 1530px) 0/auto 820px no-repeat,var(--peach)}
+.hero::before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(242,216,197,.92) 0%,rgba(242,216,197,.75) 40%,rgba(242,216,197,0) 62%)}
+.hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:160px;background:linear-gradient(transparent,var(--cream))}
+.hero .container{position:relative;z-index:2}
+.hero-copy{max-width:min(620px,54vw);display:grid;gap:26px}
+.hero h1{font-size:clamp(3rem,7.6vw,6.4rem);line-height:.95;letter-spacing:-.04em;color:var(--brown-deep)}
+.hero h1 .word{display:inline-block;overflow:hidden;vertical-align:top;padding-bottom:.08em}
+.hero h1 .word>span{display:inline-block;transform:translateY(105%);animation:up 1.1s var(--ease) forwards}
+.hero h1 em{color:var(--olive)}
+@keyframes up{to{transform:none}}
+.hero .lead{color:var(--brown);font-size:clamp(1.08rem,1.6vw,1.28rem)}
+.hero .cta-wrap{justify-items:start;margin-top:6px}
+.hero .cta-micro{justify-content:flex-start}
+.hero-chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+.chip{display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border-radius:999px;font-size:.85rem;font-weight:600;color:var(--brown);
+  background:rgba(255,255,255,.55);border:1px solid rgba(87,47,39,.12);backdrop-filter:blur(8px)}
+.chip i{width:7px;height:7px;border-radius:50%;background:var(--olive)}
+.fade-in{opacity:0;transform:translateY(16px);animation:fin 1s var(--ease) forwards}
+@keyframes fin{to{opacity:1;transform:none}}
+.hero-badge{position:absolute;right:max(20px,calc((100vw - 1160px)/2));bottom:120px;z-index:3;display:flex;align-items:center;gap:14px;padding:14px 18px 14px 14px;border-radius:20px;
+  background:rgba(255,255,255,.7);backdrop-filter:blur(14px);border:1px solid rgba(255,255,255,.8);box-shadow:var(--shadow);animation:float 6s ease-in-out infinite}
+.hero-badge .ic{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;background:var(--olive);color:var(--cream)}
+.hero-badge b{display:block;font-size:.95rem;color:var(--brown-deep)}
+.hero-badge small{font-size:.78rem;color:var(--brown-2)}
+@keyframes float{50%{transform:translateY(-10px)}}
+
+/* ============ DELIVERABLES STRIP ============ */
+.strip{background:var(--olive-deep);color:var(--peach);overflow:hidden;padding:22px 0;transform:rotate(-1.2deg);margin:10px -20px 0;box-shadow:0 20px 40px -20px rgba(0,0,0,.4)}
+.strip .marquee{animation-duration:30s}
+.strip span{font-family:var(--serif);font-size:clamp(1.3rem,2.4vw,1.9rem);font-style:italic;padding:0 28px;gap:56px}
+.strip span::after{font-style:normal;font-size:1rem}
+
+/* ============ PAIN ============ */
+.pain{padding:130px 0 110px}
+.pain-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.pain-card{position:relative;text-align:left;padding:28px 26px 26px;border-radius:var(--radius);background:#fff;border:1px solid rgba(87,47,39,.08);
+  box-shadow:0 1px 2px rgba(61,27,20,.04);transition:transform .45s var(--ease),box-shadow .45s var(--ease),border-color .3s,background .3s;overflow:hidden;cursor:pointer}
+.pain-card::before{content:"";position:absolute;inset:0;opacity:0;transition:opacity .4s;pointer-events:none;
+  background:radial-gradient(380px circle at var(--mx,50%) var(--my,50%),rgba(204,161,147,.28),transparent 45%)}
+.pain-card:hover{transform:translateY(-4px);box-shadow:var(--shadow)}
+.pain-card:hover::before{opacity:1}
+.pain-card .check{width:30px;height:30px;border-radius:9px;border:1.5px solid rgba(87,47,39,.25);display:grid;place-items:center;margin-bottom:18px;transition:.35s var(--ease)}
+.pain-card .check svg{width:16px;height:16px;color:#fff;transform:scale(0);transition:transform .35s var(--ease)}
+.pain-card p{color:var(--brown);font-size:1.02rem;position:relative}
+.pain-card .num{position:absolute;right:22px;top:20px;font-family:var(--serif);font-size:2.6rem;line-height:1;color:rgba(87,47,39,.08);font-style:italic}
+.pain-card.on{border-color:var(--olive);background:linear-gradient(180deg,#fff,#f6f4ea)}
+.pain-card.on .check{background:var(--olive);border-color:var(--olive)}
+.pain-card.on .check svg{transform:scale(1)}
+.pain-meter{margin:34px auto 0;max-width:560px;text-align:center;font-size:.95rem;color:var(--brown-2);min-height:3.2em}
+.pain-meter .bar{height:6px;border-radius:9px;background:rgba(87,47,39,.1);overflow:hidden;margin:12px 0}
+.pain-meter .bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--olive),var(--brown));transition:width .6s var(--ease)}
+.pain-meter b{color:var(--brown-deep)}
+.truth{margin-top:90px;display:grid;grid-template-columns:1fr 1.1fr;gap:40px;align-items:stretch}
+.truth-a{padding:44px;border-radius:var(--radius-lg);background:var(--peach);color:var(--brown)}
+.truth-a p{font-size:1.12rem}
+.truth-a p+p{margin-top:14px}
+.truth-a strong{color:var(--brown-deep)}
+.truth-b{position:relative;padding:44px;border-radius:var(--radius-lg);background:var(--brown-deep);color:var(--peach);overflow:hidden;display:grid;align-content:center;gap:14px}
+.truth-b::before{content:"";position:absolute;width:420px;height:420px;right:-140px;top:-160px;border-radius:50%;background:radial-gradient(circle,rgba(201,164,106,.35),transparent 65%)}
+.truth-b small{font-size:.8rem;letter-spacing:.18em;text-transform:uppercase;color:var(--gold);font-weight:600}
+.truth-b h3{color:var(--cream);font-size:clamp(1.8rem,3.4vw,2.7rem);line-height:1.08}
+.truth-b h3 em{color:var(--peach-2)}
+.hl{background:linear-gradient(transparent 62%,rgba(201,164,106,.55) 62%) no-repeat 0 0/0% 100%;transition:background-size 1.2s var(--ease) .3s}
+.in .hl,.hl.in{background-size:100% 100%}
+
+/* ============ METHOD ============ */
+.method{padding:120px 0;background:linear-gradient(180deg,var(--cream),var(--cream-2))}
+.method-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.method-art{position:relative}
+.method-art img{width:100%;filter:drop-shadow(0 30px 40px rgba(87,47,39,.15));animation:spinSlow 0s}
+.orbit{position:absolute;inset:-6%;border:1px dashed rgba(87,47,39,.2);border-radius:50%;animation:rot 60s linear infinite}
+.orbit::before{content:"";position:absolute;top:8%;left:14%;width:12px;height:12px;border-radius:50%;background:var(--olive);box-shadow:0 0 0 6px rgba(85,90,49,.15)}
+@keyframes rot{to{transform:rotate(360deg)}}
+.method-copy{display:grid;gap:22px}
+.method-copy p{color:var(--brown);font-size:1.08rem}
+.pillars{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:6px}
+.pillar{padding:18px;border-radius:18px;background:#fff;border:1px solid rgba(87,47,39,.08)}
+.pillar b{font-family:var(--serif);font-weight:500;font-size:1.15rem;color:var(--olive);display:block}
+.pillar span{font-size:.82rem;color:var(--brown-2)}
+.sci{display:flex;gap:14px;align-items:center;padding:16px 20px;border-radius:18px;background:rgba(85,90,49,.08);color:var(--olive-deep);font-size:.96rem}
+.sci svg{flex:none;width:28px;height:28px;color:var(--olive)}
+
+/* ============ NO GENERIC (torn paper) ============ */
+.torn{background:#E2E6E9;padding:0}
+.torn .edge{width:100%;height:auto;display:block;max-height:180px;object-fit:fill}
+.torn .edge.top{margin-top:-1px;background:var(--cream-2)}
+.torn .edge.bot{background:var(--olive-deep)}
+.torn-in{padding:40px 0 60px}
+.torn h2{color:#2b2b2b}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin-top:10px;counter-reset:s}
+.step{position:relative;padding:34px 28px;border-radius:var(--radius);background:rgba(255,255,255,.7);backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.9);box-shadow:0 10px 30px -18px rgba(0,0,0,.25)}
+.step::before{counter-increment:s;content:"0" counter(s);font-family:var(--serif);font-style:italic;font-size:3.4rem;line-height:1;color:var(--olive);opacity:.9;display:block;margin-bottom:18px}
+.step h3{color:#232323}
+.step p{color:#555;margin-top:8px;font-size:.96rem}
+.quote-big{margin-top:60px;text-align:center;font-family:var(--serif);font-size:clamp(1.5rem,3vw,2.3rem);line-height:1.25;color:#2b2b2b;letter-spacing:-.02em}
+.quote-big em{color:var(--olive)}
+
+/* ============ INSIDE (dark) ============ */
+.dark{background:var(--olive-deep);color:var(--peach)}
+.dark h2,.dark h3{color:var(--cream)}
+.dark h2 em{color:var(--peach-2)}
+.dark .lead{color:rgba(242,216,197,.78)}
+.inside{padding:110px 0 130px;overflow:hidden}
+.inside::before{content:"";position:absolute;inset:0;background:radial-gradient(900px 500px at 50% 30%,rgba(242,205,181,.12),transparent 60%);pointer-events:none}
+.mockup{position:relative;margin:10px auto 70px;max-width:1000px}
+.mockup img{width:100%;filter:drop-shadow(0 50px 60px rgba(0,0,0,.45));transition:transform .2s linear}
+.mockup .glow{position:absolute;inset:20% 10%;background:radial-gradient(circle,rgba(242,205,181,.25),transparent 60%);filter:blur(40px);z-index:-1}
+.bento{display:grid;grid-template-columns:repeat(12,1fr);grid-auto-rows:minmax(150px,auto);gap:16px}
+.cell{position:relative;padding:30px;border-radius:var(--radius);background:rgba(255,255,255,.04);border:1px solid rgba(242,216,197,.12);overflow:hidden;transition:border-color .4s,transform .45s var(--ease)}
+.cell::before{content:"";position:absolute;inset:0;opacity:0;transition:opacity .4s;pointer-events:none;background:radial-gradient(420px circle at var(--mx,50%) var(--my,50%),rgba(242,205,181,.14),transparent 45%)}
+.cell:hover{border-color:rgba(242,216,197,.3);transform:translateY(-3px)}
+.cell:hover::before{opacity:1}
+.cell h3{font-size:1.5rem;margin-bottom:10px}
+.cell p{color:rgba(242,216,197,.78)}
+.c1,.c2{grid-column:span 6}.c3,.c4,.c5,.c6{grid-column:span 3}
+@media(max-width:980px){.c3,.c4,.c5,.c6{grid-column:span 6}}
+.stat{display:flex;align-items:flex-end;gap:16px}
+.stat b{font-family:var(--serif);font-weight:400;font-size:clamp(3.4rem,6vw,5rem);line-height:.9;color:var(--cream);letter-spacing:-.04em}
+.stat span{color:rgba(242,216,197,.8);font-size:.95rem;padding-bottom:8px;line-height:1.3}
+.cell .tag{display:inline-block;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;font-weight:600;color:var(--gold);margin-bottom:14px}
+.minutes{display:flex;gap:4px;margin-top:18px}
+.minutes i{flex:1;height:30px;border-radius:6px;background:rgba(242,216,197,.1);transform-origin:bottom;animation:eq 1.4s ease-in-out infinite}
+.minutes i:nth-child(odd){animation-delay:-.4s}.minutes i:nth-child(3n){animation-delay:-.8s}
+@keyframes eq{0%,100%{transform:scaleY(.35);background:rgba(242,216,197,.15)}50%{transform:scaleY(1);background:rgba(201,164,106,.7)}}
+
+/* ============ CURRICULUM ============ */
+.curr{padding:120px 0;background:var(--cream)}
+.curr-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:60px;align-items:start}
+.curr-side{position:sticky;top:110px;display:grid;gap:22px}
+.curr-side .big{font-family:var(--serif);font-size:clamp(1.6rem,2.6vw,2.2rem);line-height:1.2;color:var(--brown-deep)}
+.curr-side .big em{color:var(--olive)}
+.modules{display:grid;gap:14px}
+.mod{border-radius:var(--radius);background:#fff;border:1px solid rgba(87,47,39,.1);overflow:hidden;transition:box-shadow .4s,border-color .4s}
+.mod[open]{box-shadow:var(--shadow);border-color:rgba(85,90,49,.35)}
+.mod summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:auto 1fr auto;gap:18px;align-items:center;padding:22px 24px}
+.mod summary::-webkit-details-marker{display:none}
+.mod .badge{width:54px;height:54px;border-radius:16px;display:grid;place-items:center;font-family:var(--serif);font-size:1.4rem;color:var(--cream);
+  background:url(assets/10-Modulo-01.webp) center/cover,var(--olive)}
+.mod.bonus .badge{background:linear-gradient(135deg,var(--gold),var(--brown));font-size:1.1rem}
+.mod summary small{display:block;font-size:.75rem;letter-spacing:.14em;text-transform:uppercase;color:var(--olive);font-weight:600}
+.mod summary b{font-family:var(--serif);font-weight:500;font-size:1.2rem;color:var(--brown-deep);line-height:1.25}
+.mod .plus{width:34px;height:34px;border-radius:50%;border:1px solid rgba(87,47,39,.2);display:grid;place-items:center;transition:.4s var(--ease)}
+.mod[open] .plus{transform:rotate(45deg);background:var(--brown-deep);color:var(--cream);border-color:var(--brown-deep)}
+.mod ul{list-style:none;padding:0 24px 22px 96px;display:grid;gap:10px}
+.mod li{display:flex;gap:12px;align-items:flex-start;color:var(--brown);font-size:.98rem}
+.mod li::before{content:"";flex:none;width:18px;height:18px;margin-top:3px;border-radius:50%;
+  background:var(--peach) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23572F27'%3E%3Cpath d='M8 5v14l11-7z'/%3E%3C/svg%3E") center/10px no-repeat}
+.mod li.mat::before{background:rgba(85,90,49,.12) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23555A31' stroke-width='2.5'%3E%3Cpath d='M6 3h9l4 4v14H6z'/%3E%3C/svg%3E") center/10px no-repeat}
+.mod li.mat{color:var(--olive);font-weight:500}
+.mod p.desc{padding:0 24px 22px 96px;color:var(--brown)}
+
+/* ============ BONUS ============ */
+.bonus{padding:120px 0;background:linear-gradient(180deg,var(--cream),var(--peach) 120%)}
+.bonus-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.bcard{position:relative;border-radius:var(--radius-lg);padding:2px;background:linear-gradient(140deg,rgba(201,164,106,.7),rgba(87,47,39,.12) 40%,rgba(85,90,49,.4));transition:transform .5s var(--ease)}
+.bcard-in{height:100%;border-radius:calc(var(--radius-lg) - 2px);background:#fffaf6;padding:26px;display:grid;grid-template-rows:auto 1fr;gap:18px;overflow:hidden}
+.bcard .img{height:170px;display:grid;place-items:center;border-radius:20px;background:radial-gradient(circle at 50% 60%,var(--cream-2),transparent 70%)}
+.bcard .img img{max-height:150px;width:auto;transition:transform .6s var(--ease)}
+.bcard:hover{transform:translateY(-6px) rotate(-.4deg)}
+.bcard:hover .img img{transform:scale(1.07) rotate(-3deg)}
+.bcard .lbl{font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--olive)}
+.bcard h3{margin:6px 0 8px}
+.bcard p{color:var(--brown-2);font-size:.95rem}
+.bcard .free{position:absolute;top:18px;right:18px;z-index:2;padding:6px 12px;border-radius:999px;font-size:.72rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;background:var(--brown-deep);color:var(--peach)}
+
+/* ============ FOR WHOM ============ */
+.who{padding:120px 0;background:var(--peach)}
+.who-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:24px}
+.who-card{padding:44px;border-radius:var(--radius-lg);background:#fff}
+.who-card.no{background:transparent;border:1.5px dashed rgba(87,47,39,.3)}
+.who-card h3{margin-bottom:24px}
+.list{list-style:none;display:grid;gap:14px}
+.list li{display:flex;gap:14px;align-items:flex-start;font-size:1.04rem;color:var(--brown)}
+.list li svg{flex:none;width:24px;height:24px;margin-top:1px}
+.list.yes svg{color:#fff;background:var(--olive);border-radius:50%;padding:5px}
+.list.nope svg{color:var(--brown);background:rgba(87,47,39,.1);border-radius:50%;padding:6px}
+
+/* ============ TESTIMONIALS ============ */
+.proof{padding:120px 0 100px;background:var(--cream);overflow:hidden}
+.wall{position:relative;height:760px;display:grid;grid-template-columns:repeat(3,1fr);gap:18px;
+  -webkit-mask:linear-gradient(transparent,#000 12%,#000 88%,transparent);mask:linear-gradient(transparent,#000 12%,#000 88%,transparent)}
+.col{display:flex;flex-direction:column;gap:18px;animation:vscroll 46s linear infinite}
+.col.r{animation-direction:reverse;animation-duration:52s}
+.col.s{animation-duration:58s}
+.wall:hover .col{animation-play-state:paused}
+@keyframes vscroll{to{transform:translateY(-50%)}}
+.shot{border-radius:20px;overflow:hidden;background:#fff;padding:10px;box-shadow:0 10px 30px -14px rgba(61,27,20,.3);cursor:zoom-in;transition:transform .4s var(--ease)}
+.shot img{border-radius:12px;width:100%}
+.shot:hover{transform:scale(1.02)}
+.lightbox{position:fixed;inset:0;z-index:200;display:grid;place-items:center;padding:24px;background:rgba(26,12,9,.82);backdrop-filter:blur(8px);opacity:0;pointer-events:none;transition:opacity .35s}
+.lightbox.open{opacity:1;pointer-events:auto}
+.lightbox img{max-height:88vh;width:auto;border-radius:16px;box-shadow:0 40px 80px rgba(0,0,0,.5);transform:scale(.94);transition:transform .45s var(--ease)}
+.lightbox.open img{transform:none}
+.lightbox button{position:absolute;top:20px;right:20px;width:48px;height:48px;border-radius:50%;background:rgba(255,255,255,.12);color:#fff;font-size:1.6rem}
+
+/* ============ OFFER ============ */
+.offer{padding:130px 0;background:url(assets/20-Preco.webp) center/cover no-repeat,var(--brown-deep);color:var(--peach);overflow:hidden}
+.offer::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(39,44,1,.55),rgba(22,25,2,.8))}
+.offer .container{position:relative}
+.offer h2{color:var(--cream)}
+.offer h2 em{color:var(--peach-2)}
+.offer-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;align-items:stretch;margin-top:20px}
+.stack{padding:40px;border-radius:var(--radius-lg);background:rgba(255,255,255,.05);border:1px solid rgba(242,216,197,.14);backdrop-filter:blur(10px)}
+.stack h3{color:var(--cream);font-size:1.3rem;margin-bottom:20px}
+.stack .list li{color:rgba(242,216,197,.92)}
+.stack .list.yes svg{background:var(--peach);color:var(--olive-deep)}
+.stack hr{border:0;height:1px;background:rgba(242,216,197,.16);margin:26px 0}
+.stack .gift{display:inline-flex;align-items:center;gap:8px;font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;font-weight:700;color:var(--gold);margin-bottom:16px}
+.price-card{position:relative;border-radius:var(--radius-lg);padding:2px;isolation:isolate;overflow:hidden}
+.price-card::before{content:"";position:absolute;inset:-50%;z-index:-1;background:conic-gradient(from var(--a),transparent 0 60%,var(--gold) 75%,#fff 80%,var(--peach) 85%,transparent 95%);animation:beam 5s linear infinite}
+.price-in{height:100%;border-radius:calc(var(--radius-lg) - 2px);background:var(--cream);color:var(--ink);padding:44px 40px;display:grid;justify-items:center;text-align:center;gap:14px}
+.price-in .logo{height:40px;width:auto}
+.ribbon{display:inline-flex;gap:8px;align-items:center;padding:7px 14px;border-radius:999px;background:var(--olive);color:var(--cream);font-size:.74rem;font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.perks{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.perks span{font-size:.82rem;font-weight:600;padding:7px 12px;border-radius:999px;background:var(--cream-2);color:var(--brown)}
+.from{color:var(--brown-2);font-size:1rem}
+.from s{color:var(--brown-2);text-decoration-color:#c0392b;text-decoration-thickness:2px}
+.price{display:flex;align-items:flex-start;justify-content:center;gap:8px;line-height:1;color:var(--brown-deep);font-family:var(--serif)}
+.price .x{font-size:1.6rem;margin-top:16px;font-family:var(--sans);font-weight:600}
+.price .rs{font-size:1.4rem;margin-top:18px;font-family:var(--sans);font-weight:600}
+.price .v{font-size:clamp(4.6rem,9vw,6.4rem);letter-spacing:-.05em;font-weight:500}
+.cash{font-size:1.1rem;color:var(--brown)}
+.cash b{color:var(--olive);font-size:1.25rem}
+.save{font-size:.85rem;font-weight:700;color:var(--green);background:rgba(0,160,64,.1);padding:6px 12px;border-radius:999px}
+.daily{font-size:.88rem;color:var(--brown-2)}
+.secure{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;font-size:.8rem;color:var(--brown-2);margin-top:4px}
+.secure span{display:inline-flex;gap:6px;align-items:center}
+.secure svg{width:14px;height:14px;color:var(--olive)}
+
+/* ============ ABOUT ============ */
+.about{padding:130px 0;background:url(assets/24-Fundo-Bio.webp) right center/contain no-repeat,var(--cream-2);overflow:hidden}
+.about-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:70px;align-items:center}
+.photo{position:relative;justify-self:center;max-width:420px}
+.photo img{border-radius:28px;box-shadow:var(--shadow);position:relative;z-index:1}
+.photo::before{content:"";position:absolute;inset:24px -24px -24px 24px;border-radius:28px;background:var(--olive);z-index:0}
+.photo .cred{position:absolute;z-index:2;left:-26px;bottom:40px;padding:14px 18px;border-radius:18px;background:#fff;box-shadow:var(--shadow);display:grid;gap:2px;animation:float 7s ease-in-out infinite}
+.photo .cred b{font-family:var(--serif);font-weight:500;font-size:1.05rem;color:var(--brown-deep)}
+.photo .cred small{font-size:.78rem;color:var(--brown-2)}
+.about-copy{display:grid;gap:18px}
+.about-copy .name{font-family:var(--serif);font-style:italic;font-size:clamp(2.6rem,5vw,4rem);line-height:1;color:var(--olive)}
+.about-copy p{color:var(--brown);font-size:1.06rem}
+.about-copy strong{color:var(--brown-deep);font-weight:600}
+.creds{display:flex;flex-wrap:wrap;gap:10px}
+
+/* ============ GUARANTEE ============ */
+.guarantee{padding:120px 0;background:var(--cream)}
+.g-card{display:grid;grid-template-columns:auto 1fr;gap:56px;align-items:center;padding:56px;border-radius:40px;background:#fff;box-shadow:var(--shadow);position:relative;overflow:hidden}
+.g-card::after{content:"";position:absolute;right:-120px;bottom:-160px;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,var(--cream-2),transparent 65%)}
+.g-card img{width:200px;height:auto}
+.g-card h2{font-size:clamp(1.9rem,3.6vw,2.9rem)}
+.g-card p{color:var(--brown);font-size:1.1rem;margin-top:14px;max-width:58ch}
+.g-card .cta-wrap{justify-items:start;margin-top:28px}
+.seal{position:absolute;top:26px;right:30px;width:110px;height:110px;z-index:1;animation:rot 22s linear infinite}
+.seal text{font:600 9.6px var(--sans);letter-spacing:2.6px;fill:var(--olive);text-transform:uppercase}
+
+/* ============ FAQ ============ */
+.faq{padding:120px 0;background:var(--cream-2)}
+.faq-list{display:grid;gap:12px}
+.qa{border-radius:20px;background:#fff;border:1px solid rgba(87,47,39,.08);transition:border-color .3s}
+.qa[open]{border-color:rgba(85,90,49,.35)}
+.qa summary{list-style:none;cursor:pointer;display:flex;justify-content:space-between;gap:20px;align-items:center;padding:22px 26px;font-weight:600;font-size:1.04rem;color:var(--brown-deep)}
+.qa summary::-webkit-details-marker{display:none}
+.qa .plus{flex:none;width:30px;height:30px;border-radius:50%;background:var(--cream-2);display:grid;place-items:center;transition:.4s var(--ease)}
+.qa[open] .plus{transform:rotate(45deg);background:var(--olive);color:#fff}
+.qa .ans{display:grid;grid-template-rows:0fr;transition:grid-template-rows .45s var(--ease)}
+.qa[open] .ans{grid-template-rows:1fr}
+.qa .ans>div{overflow:hidden}
+.qa .ans p{padding:0 26px 24px;color:var(--brown)}
+
+/* ============ FINAL ============ */
+.final{padding:140px 0 120px;background:var(--brown-deep);color:var(--peach);text-align:center;overflow:hidden}
+.final::before{content:"";position:absolute;left:50%;top:-30%;width:900px;height:900px;transform:translateX(-50%);border-radius:50%;background:radial-gradient(circle,rgba(201,164,106,.25),transparent 60%)}
+.final .container{position:relative}
+.final h2{color:var(--cream);font-size:clamp(2.4rem,6vw,5rem);max-width:16ch;margin:22px auto 0}
+.final h2 em{color:var(--peach-2)}
+.final .lead{color:rgba(242,216,197,.8);margin:22px auto 0}
+.final .cta-micro{color:rgba(242,216,197,.7)}
+.final .cta-micro svg{color:var(--peach-2)}
+footer{background:var(--ink);color:rgba(242,216,197,.6);font-size:.85rem;padding:40px 0 110px}
+footer .container{display:flex;flex-wrap:wrap;gap:20px;justify-content:space-between;align-items:center}
+footer img{height:30px;width:auto;filter:brightness(0) invert(.88) sepia(.3)}
+
+/* ============ STICKY CTA (dynamic-island style) ============ */
+.island{position:fixed;left:50%;bottom:18px;z-index:80;transform:translate(-50%,140%);transition:transform .6s var(--ease);
+  display:flex;align-items:center;gap:16px;padding:8px 8px 8px 22px;border-radius:999px;background:rgba(26,12,9,.88);backdrop-filter:blur(14px);color:var(--peach);
+  box-shadow:0 20px 50px -10px rgba(0,0,0,.5);border:1px solid rgba(242,216,197,.12);max-width:calc(100% - 24px)}
+.island.show{transform:translate(-50%,0)}
+.island .t{display:grid;line-height:1.2;white-space:nowrap}
+.island .t small{font-size:.72rem;color:rgba(242,216,197,.65)}
+.island .t b{font-size:.98rem;color:var(--cream)}
+.island .btn{padding:13px 22px;font-size:.85rem;white-space:nowrap}
+
+/* ============ REVEAL ============ */
+.rv{opacity:0;transform:translateY(28px);transition:opacity 1s var(--ease),transform 1s var(--ease)}
+.rv.in{opacity:1;transform:none}
+.rv.d1{transition-delay:.08s}.rv.d2{transition-delay:.16s}.rv.d3{transition-delay:.24s}.rv.d4{transition-delay:.32s}.rv.d5{transition-delay:.4s}
+
+/* ============ BLUR WORD REVEAL (headings) ============ */
+h2.rv{opacity:1;transform:none}
+h2 .bw{display:inline-block;filter:blur(12px);opacity:0;transform:translateY(.35em);transition:filter .9s var(--ease),opacity .9s var(--ease),transform .9s var(--ease);transition-delay:calc(var(--i) * 55ms)}
+h2.in .bw{filter:none;opacity:1;transform:none}
+
+/* ============ STORY (embolado -> claro) ============ */
+.story{height:250vh;background:var(--brown-deep);color:var(--peach)}
+.story-pin{position:sticky;top:0;height:100vh;height:100svh;display:grid;place-items:center;overflow:hidden}
+.story-pin::before{content:"";position:absolute;width:900px;height:900px;border-radius:50%;background:radial-gradient(circle,rgba(201,164,106,calc(.05 + var(--p,0) * .25)),transparent 62%);pointer-events:none}
+.story-in{position:relative;width:min(1040px,100% - 40px);text-align:center;display:grid;gap:30px;justify-items:center}
+.story-text{font-family:var(--serif);font-size:clamp(2.3rem,6.4vw,5.6rem);line-height:1.05;letter-spacing:-.035em;color:var(--cream);font-weight:400}
+.story-text .wd{display:inline-block;white-space:nowrap}
+.story-text .ch{display:inline-block;filter:blur(5px);opacity:.42;color:var(--rose);transform:translateY(calc(var(--j,0) * 1px)) rotate(calc(var(--j,0) * .6deg));transition:filter .35s,opacity .35s,color .35s,transform .35s var(--ease)}
+.story-text .ch.ok{filter:none;opacity:1;color:var(--cream);transform:none}
+.story-text em .ch.ok{color:var(--peach-2)}
+.story-wave{width:min(640px,86vw);height:90px}
+.story-wave path{fill:none;stroke:var(--gold);stroke-width:2.2;stroke-linecap:round}
+.story-meter{width:min(440px,84vw);display:grid;gap:10px}
+.story-meter .row{display:flex;justify-content:space-between;font-size:.82rem;letter-spacing:.14em;text-transform:uppercase;font-weight:600;color:rgba(242,216,197,.7)}
+.story-meter .row b{color:var(--cream);font-variant-numeric:tabular-nums}
+.story-meter .bar{height:6px;border-radius:9px;background:rgba(242,216,197,.12);overflow:hidden}
+.story-meter .bar i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--rose),var(--gold),#f6e7c9)}
+.story-cap{font-size:1rem;color:rgba(242,216,197,.75);min-height:1.6em;transition:opacity .4s}
+.story-hint{position:absolute;bottom:28px;left:50%;transform:translateX(-50%);font-size:.75rem;letter-spacing:.18em;text-transform:uppercase;color:rgba(242,216,197,.5);display:flex;flex-direction:column;align-items:center;gap:8px}
+.story-hint i{width:1px;height:34px;background:linear-gradient(var(--peach),transparent);animation:drip 1.8s ease-in-out infinite}
+@keyframes drip{0%{transform:scaleY(0);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}51%{transform-origin:bottom}100%{transform:scaleY(0);transform-origin:bottom}}
+
+/* ============ LAB (desafio do trava-língua) ============ */
+.lab{padding:120px 0;background:radial-gradient(rgba(87,47,39,.12) 1px,transparent 1px) 0 0/22px 22px,var(--cream)}
+.lab-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:center}
+.lab-copy{display:grid;gap:20px}
+.lab-hint{color:var(--brown);font-size:1.05rem}
+.lab-note{font-size:.82rem;color:var(--brown-2);padding:12px 16px;border-radius:14px;background:rgba(87,47,39,.06);display:flex;gap:10px}
+.lab-card{position:relative;padding:30px;border-radius:32px;background:#fff;box-shadow:var(--shadow);border:1px solid rgba(87,47,39,.08);display:grid;gap:22px;overflow:hidden}
+.levels{position:relative;display:grid;grid-template-columns:repeat(3,1fr);padding:5px;border-radius:999px;background:var(--cream-2)}
+.levels button{position:relative;z-index:1;padding:11px 8px;border-radius:999px;font-weight:600;font-size:.88rem;color:var(--brown-2);transition:color .35s}
+.levels button[aria-selected=true]{color:var(--cream)}
+.lv-ind{position:absolute;top:5px;bottom:5px;left:5px;border-radius:999px;background:var(--brown-deep);transition:transform .5s var(--ease),width .5s var(--ease);box-shadow:0 6px 16px -6px rgba(61,27,20,.5)}
+.phrase{font-family:var(--serif);font-size:clamp(1.5rem,2.6vw,2.1rem);line-height:1.25;letter-spacing:-.02em;color:var(--brown-deep);min-height:2.6em;text-align:center}
+.phrase .w{display:inline-block;padding:0 .08em;border-radius:6px;transition:background .4s,color .4s;animation:wIn .6s var(--ease) both;animation-delay:calc(var(--i) * 45ms)}
+@keyframes wIn{from{opacity:0;filter:blur(8px);transform:translateY(8px)}}
+.phrase .w.ok{background:rgba(85,90,49,.14);color:var(--olive)}
+.phrase .w.miss{background:rgba(192,57,43,.1);color:#a93a2c;text-decoration:underline wavy rgba(192,57,43,.5) 1.5px;text-underline-offset:6px}
+.wave{width:100%;height:70px;display:block}
+.mic-row{display:flex;align-items:center;justify-content:center;gap:20px}
+.mic{position:relative;flex:none;width:78px;height:78px;border-radius:50%;background:linear-gradient(180deg,#14b354,#00A040 60%,#008a37);color:#fff;display:grid;place-items:center;box-shadow:0 14px 30px -10px rgba(0,160,64,.7),0 1px 0 rgba(255,255,255,.35) inset;transition:transform .3s var(--ease),background .3s}
+.mic:hover{transform:scale(1.06)}
+.mic svg{width:30px;height:30px;position:relative;z-index:1}
+.mic .ring{position:absolute;inset:0;border-radius:50%;border:2px solid rgba(0,160,64,.5);opacity:0}
+.mic.rec{background:linear-gradient(180deg,#c0392b,#a93226)}
+.mic.rec .ring{animation:ping 1.6s cubic-bezier(0,0,.2,1) infinite;border-color:rgba(192,57,43,.55)}
+.mic.rec .ring.r2{animation-delay:.8s}
+@keyframes ping{0%{transform:scale(1);opacity:.9}100%{transform:scale(1.9);opacity:0}}
+.mic-state b{display:block;color:var(--brown-deep);font-size:1rem}
+.mic-state small{color:var(--brown-2);font-size:.85rem}
+.heard{min-height:1.5em;text-align:center;font-size:.95rem;color:var(--brown-2);font-style:italic}
+.result{display:grid;grid-template-columns:auto 1fr;gap:22px;align-items:center;padding:22px;border-radius:24px;background:var(--cream);animation:fin .7s var(--ease)}
+.result[hidden],.self[hidden]{display:none}
+.score{--p:0;width:112px;height:112px;border-radius:50%;display:grid;place-items:center;align-content:center;grid-auto-flow:column;gap:2px;
+  background:radial-gradient(closest-side,var(--cream) 78%,transparent 80%),conic-gradient(var(--olive) calc(var(--p) * 1%),rgba(87,47,39,.12) 0)}
+.score b{font-family:var(--serif);font-size:2.4rem;font-weight:500;color:var(--brown-deep);line-height:1}
+.score small{font-weight:700;color:var(--brown-2);align-self:start;margin-top:4px}
+.result h3{font-size:1.3rem}
+.result p{color:var(--brown);font-size:.95rem;margin:6px 0 14px}
+.result .btn{padding:14px 22px;font-size:.85rem}
+.self{display:grid;gap:12px;text-align:center}
+.self p{color:var(--brown);font-size:.95rem}
+.self .opts{display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.self .opts button{padding:10px 16px;border-radius:999px;background:var(--cream-2);font-weight:600;font-size:.88rem;color:var(--brown);transition:.3s}
+.self .opts button:hover{background:var(--brown-deep);color:var(--cream)}
+
+/* ============ 3D BOOK (bônus e-book) ============ */
+.book{perspective:1000px;width:118px;height:160px}
+.book-in{position:relative;width:100%;height:100%;transform-style:preserve-3d;transform:rotateY(-26deg) rotateX(4deg);transition:transform .9s var(--ease)}
+.book .page1,.book .cover,.book .pages{position:absolute;inset:0;border-radius:3px 10px 10px 3px}
+.book .pages{inset:4px -6px 4px 4px;background:repeating-linear-gradient(90deg,#fffdf9 0 2px,#e9dfd4 2px 3px);transform:translateZ(-14px);box-shadow:10px 14px 26px rgba(61,27,20,.3)}
+.book .page1{background:#fffaf4;padding:16px 12px;font-family:var(--serif);font-size:.72rem;line-height:1.35;color:var(--brown);transform:translateZ(-1px);display:grid;align-content:center;text-align:center}
+.book .cover{background:linear-gradient(135deg,#6b7140,var(--olive) 40%,var(--olive-deep));color:var(--peach);padding:14px 12px 12px 16px;display:flex;flex-direction:column;justify-content:space-between;transform-origin:left center;transition:transform 1s var(--ease);
+  box-shadow:inset 5px 0 8px rgba(0,0,0,.3),inset -1px 0 0 rgba(255,255,255,.15)}
+.book .cover small{font-size:.58rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);font-weight:700}
+.book .cover b{font-family:var(--serif);font-weight:500;font-size:.95rem;line-height:1.15}
+.book .cover i{font-family:"Great Vibes",cursive;font-style:normal;font-size:1.05rem;color:var(--peach-2)}
+.bcard:hover .book-in{transform:rotateY(-8deg) rotateX(2deg)}
+.bcard:hover .book .cover{transform:rotateY(-62deg)}
+
+/* ============ SIGNATURE ============ */
+.sign{width:min(340px,80%);height:auto;overflow:visible;margin-top:6px}
+.sign text{font-family:"Great Vibes",cursive;font-size:84px;fill:transparent;stroke:var(--brown);stroke-width:1.1;stroke-dasharray:1400;stroke-dashoffset:1400}
+.sign.in text{animation:sign 3.4s var(--ease) .3s forwards,signFill 1s ease 3.2s forwards}
+@keyframes sign{to{stroke-dashoffset:0}}
+@keyframes signFill{to{fill:var(--brown);stroke-width:0}}
+.sign-wrap{display:grid;gap:2px}
+.sign-wrap small{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;color:var(--brown-2)}
+
+/* ============ LIGHT RAYS + TILT + SHIMMER ============ */
+.rays{position:absolute;left:50%;top:0;width:1600px;height:1100px;transform:translateX(-50%);transform-origin:50% 0;pointer-events:none;
+  background:repeating-conic-gradient(from 160deg at 50% 0%,rgba(246,225,196,.16) 0deg 2.5deg,transparent 2.5deg 8deg);
+  -webkit-mask:radial-gradient(ellipse 50% 85% at 50% 0%,#000 10%,transparent 75%);mask:radial-gradient(ellipse 50% 85% at 50% 0%,#000 10%,transparent 75%);
+  filter:blur(5px);animation:rays 12s ease-in-out infinite alternate}
+@keyframes rays{0%{transform:translateX(-50%) rotate(-3deg)}100%{transform:translateX(-50%) rotate(3deg)}}
+.tilt{transition:transform .5s var(--ease),opacity 1s var(--ease);transform-style:preserve-3d}
+.tilt .glare{position:absolute;inset:0;border-radius:inherit;pointer-events:none;z-index:5;opacity:0;transition:opacity .4s;
+  background:radial-gradient(500px circle at var(--gx,50%) var(--gy,50%),rgba(255,255,255,.35),transparent 40%);mix-blend-mode:soft-light}
+.tilt:hover .glare{opacity:1}
+.price .v{background:linear-gradient(100deg,var(--brown-deep) 0 40%,var(--gold) 50%,var(--brown-deep) 60% 100%) 0 0/250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shimmer 4s ease-in-out infinite}
+@keyframes shimmer{0%,30%{background-position:100% 0}70%,100%{background-position:0 0}}
+
+@media(max-width:980px){.lab-grid{grid-template-columns:1fr;gap:40px}}
+@media(max-width:640px){.lab-card{padding:22px 18px}.result{grid-template-columns:1fr;justify-items:center;text-align:center}.story{height:220vh}.levels button{font-size:.78rem}}
+@media(prefers-reduced-motion:reduce){.story{height:auto}.story-pin{position:relative;height:auto;padding:110px 0}.story-hint{display:none}h2 .bw{filter:none;opacity:1;transform:none}.sign text{fill:var(--brown);stroke-width:0}}
+
+/* ============ RESPONSIVE ============ */
+@media(max-width:1100px){.hero{background-position:calc(82vw - 1530px) 0}}
+@media(max-width:980px){
+  .nav-links{display:none}
+  .pain-grid,.bonus-grid{grid-template-columns:repeat(2,1fr)}
+  .truth,.method-grid,.curr-grid,.offer-grid,.about-grid,.who-grid{grid-template-columns:1fr}
+  .curr-side{position:static}
+  .steps{grid-template-columns:1fr}
+  .wall{grid-template-columns:repeat(2,1fr);height:640px}
+  .wall .col.s{display:none}
+  .g-card{grid-template-columns:1fr;text-align:center;justify-items:center;padding:44px 28px}
+  .g-card .cta-wrap{justify-items:center}
+  .seal{display:none}
+  .about{background-size:0}
+  .hero-badge{display:none}
+}
+@media(max-width:640px){
+  .hero{padding:120px 0 70px;background-position:calc(50vw - 970px) 0;background-size:auto 520px;min-height:auto}
+  .hero-copy{max-width:none}
+  .hero::before{background:linear-gradient(180deg,rgba(242,216,197,0) 0%,rgba(242,216,197,0) 38%,rgba(242,216,197,.94) 56%,rgba(242,216,197,.98) 100%)}
+  .hero-copy{padding-top:240px}
+  .pain-grid,.bonus-grid{grid-template-columns:1fr}
+  .bento{grid-template-columns:1fr}.bento>*{grid-column:auto!important}
+  .pillars{grid-template-columns:1fr}
+  .mod ul,.mod p.desc{padding-left:24px}
+  .who-card,.stack,.truth-a,.truth-b{padding:30px 24px}
+  .price-in{padding:36px 22px}
+  .btn{padding:18px 24px;font-size:.92rem}.btn.lg{padding:20px 26px;font-size:.98rem}
+  .island .t small{display:none}
+  .nav .btn-ghost{display:none}
+  section{scroll-margin-top:70px}
+}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}.hero h1 .word>span{transform:none}}
+</style>
+</head>
+<body>
+
+<div class="progress" id="progress"></div>
+
+<!-- ANNOUNCEMENT -->
+<div class="topbar" aria-hidden="true">
+  <div class="marquee">
+    <span>Acesso imediato</span><span>Acesso vitalício</span><span>Garantia incondicional de 7 dias</span><span>Apenas 10 minutos por dia</span><span>Criado por uma fonoaudióloga</span><span>Sem mensalidade</span>
+    <span>Acesso imediato</span><span>Acesso vitalício</span><span>Garantia incondicional de 7 dias</span><span>Apenas 10 minutos por dia</span><span>Criado por uma fonoaudióloga</span><span>Sem mensalidade</span>
+  </div>
+</div>
+
+<!-- NAV -->
+<header class="nav" id="nav">
+  <div class="container nav-in">
+    <a href="#top" aria-label="Bruna Santos — início"><img class="logo" src="assets/01-Logo.webp" alt="Bruna Santos" width="458" height="98"></a>
+    <nav class="nav-links" aria-label="Seções">
+      <a href="#metodo">O método</a><a href="#desafio">Desafio</a><a href="#conteudo">Conteúdo</a><a href="#bonus">Bônus</a><a href="#depoimentos">Depoimentos</a><a href="#faq">Dúvidas</a>
+    </nav>
+    <a class="btn-ghost" href="#oferta">Garantir minha vaga →</a>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-copy">
+      <span class="eyebrow fade-in" style="animation-delay:.1s">Método Dicção Precisa</span>
+      <h1 id="heroTitle">Perca o <em>medo</em> de falar!</h1>
+      <p class="lead fade-in" style="animation-delay:.7s">Conquiste a confiança necessária para se comunicar com mais clareza e precisão em qualquer situação, <strong>mesmo que hoje sua dicção pareça difícil de melhorar.</strong></p>
+      <div class="cta-wrap fade-in" style="animation-delay:.9s">
+        <a class="btn lg magnetic" href="#oferta">Quero falar sem medo! <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        <div class="cta-micro">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M9 12l2 2 4-4"/></svg>Garantia de 7 dias</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg>Acesso imediato</span>
+          <img class="pay" src="assets/22-Cartao.webp" alt="Formas de pagamento: Pix, cartões e boleto" width="300" height="20">
+        </div>
+      </div>
+      <div class="hero-chips fade-in" style="animation-delay:1.1s">
+        <span class="chip"><i></i>19 aulas</span><span class="chip"><i></i>Material de apoio</span><span class="chip"><i></i>Quiz Diagnóstico</span><span class="chip"><i></i>Treinos guiados</span><span class="chip"><i></i>Bônus</span>
+      </div>
+    </div>
+  </div>
+  <div class="hero-badge" aria-hidden="true">
+    <div class="ic"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="4"/><path d="M4 21c1.5-4 4.5-6 8-6s6.5 2 8 6"/></svg></div>
+    <div><b>Bruna Santos</b><small>Fonoaudióloga · Mestre pela UNESP</small></div>
+  </div>
+</section>
+
+<div class="strip" aria-hidden="true">
+  <div class="marquee">
+    <span>clareza</span><span>precisão</span><span>segurança</span><span>credibilidade</span><span>autoridade</span><span>confiança</span>
+    <span>clareza</span><span>precisão</span><span>segurança</span><span>credibilidade</span><span>autoridade</span><span>confiança</span>
+  </div>
+</div>
+
+<!-- PAIN -->
+<section class="pain" id="dor">
+  <div class="container">
+    <div class="sec-head center">
+      <span class="eyebrow rv">Seja sincero(a)</span>
+      <h2 class="rv d1">Se você se identifica com alguma dessas situações, <em>sua fala precisa ser transformada.</em></h2>
+      <p class="lead rv d2">Toque nas situações que já aconteceram com você.</p>
+    </div>
+    <div class="pain-grid" id="painGrid">
+      <button class="pain-card rv" type="button"><span class="num">01</span><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></span><p>Sua fala sai confusa, as palavras se atropelam e, no final, nem mesmo você se entende.</p></button>
+      <button class="pain-card rv d1" type="button"><span class="num">02</span><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></span><p>As pessoas pedem para você repetir o que acabou de dizer — e isso te deixa frustrado(a).</p></button>
+      <button class="pain-card rv d2" type="button"><span class="num">03</span><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></span><p>Sua fala trava no meio da frase, você se perde no que ia dizer e não sabe como continuar.</p></button>
+      <button class="pain-card rv" type="button"><span class="num">04</span><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></span><p>Você grava um áudio, escuta e percebe que tudo soa embolado, confuso e difícil de entender — bem diferente do que você pensou antes de gravar.</p></button>
+      <button class="pain-card rv d1" type="button"><span class="num">05</span><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></span><p>Você sente vergonha de falar porque acha que vai soar estranho, errado ou “bagunçado”.</p></button>
+      <button class="pain-card rv d2" type="button"><span class="num">06</span><span class="check"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg></span><p>Você fala tão rápido que as palavras viram um borrão — e ninguém consegue acompanhar.</p></button>
+    </div>
+    <div class="pain-meter" id="painMeter" aria-live="polite">
+      <div class="bar"><i id="painBar"></i></div>
+      <span id="painText">Marque as situações acima para ver seu resultado.</span>
+    </div>
+
+    <div class="truth">
+      <div class="truth-a rv">
+        <p><strong>Essas situações não acontecem por falta de esforço ou capacidade.</strong></p>
+        <p>Elas acontecem porque sua dicção não foi treinada da forma correta — com um método seguro, direcionamento e prática.</p>
+      </div>
+      <div class="truth-b rv d1">
+        <small>O grande segredo</small>
+        <h3>é que com um treino claro, prático e eficaz, <em class="hl">sua dicção pode mudar para sempre.</em></h3>
+      </div>
+    </div>
+    <div class="cta-wrap rv">
+      <a class="btn magnetic" href="#oferta">Quero falar sem medo! <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- STORY: embolado -> claro -->
+<section class="story" id="story" aria-label="Do embolado ao claro">
+  <div class="story-pin">
+    <div class="story-in">
+      <span class="eyebrow light">Role a página e escute a diferença</span>
+      <p class="story-text" id="storyText" aria-label="Sua dicção pode mudar para sempre.">Sua dicção pode <em>mudar para sempre.</em></p>
+      <svg class="story-wave" viewBox="0 0 640 90" preserveAspectRatio="none" aria-hidden="true"><path id="storyWave" d="M0 45 L640 45"/></svg>
+      <div class="story-meter" aria-hidden="true">
+        <div class="row"><span id="storyLabel">Fala embolada</span><b id="storyPct">0%</b></div>
+        <div class="bar"><i id="storyBar"></i></div>
+      </div>
+      <p class="story-cap" id="storyCap">&nbsp;</p>
+    </div>
+    <div class="story-hint" aria-hidden="true">Role<i></i></div>
+  </div>
+</section>
+
+<!-- METHOD -->
+<section class="method" id="metodo">
+  <div class="container method-grid">
+    <div class="method-art rv">
+      <div class="orbit" aria-hidden="true"></div>
+      <img src="assets/02-Interssessao-1.webp" alt="Os 3 pilares do método: Praticidade, Precisão e Eficiência" width="719" height="416" loading="lazy">
+    </div>
+    <div class="method-copy">
+      <span class="eyebrow rv">O método</span>
+      <h2 class="rv d1">O Método Dicção Precisa foi <em>desenvolvido por uma Fonoaudióloga</em>, baseado em 3 pilares</h2>
+      <p class="rv d2">Praticidade, Precisão e Eficiência — e funciona até para quem acredita que “não tem mais jeito”.</p>
+      <div class="pillars rv d3">
+        <div class="pillar"><b>Praticidade</b><span>Treinos curtos que cabem na rotina</span></div>
+        <div class="pillar"><b>Precisão</b><span>Cada exercício com um objetivo claro</span></div>
+        <div class="pillar"><b>Eficiência</b><span>Progresso real em poucos minutos</span></div>
+      </div>
+      <div class="sci rv d4"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M9 3h6M10 3v6L4 19a1.5 1.5 0 001.3 2h13.4A1.5 1.5 0 0020 19l-6-10V3"/><path d="M7 15h10"/></svg>
+        <span>Uma metodologia prática, direta e <strong>cientificamente embasada</strong> para você falar de forma clara, precisa e segura.</span></div>
+      <p class="rv d5">Em vez de tentar “falar melhor” no improviso, você aprende a treinar sua dicção do jeito certo — com exercícios objetivos, orientação clara e treinos que fazem sentido na prática.</p>
+    </div>
+  </div>
+</section>
+
+<!-- NO GENERIC -->
+<section class="torn">
+  <img class="edge top" src="assets/03-Cima.webp" alt="" width="886" height="176" loading="lazy">
+  <div class="torn-in">
+    <div class="container">
+      <div class="sec-head center">
+        <h2 class="rv">Nada de técnicas soltas ou <em>exercícios genéricos</em></h2>
+        <p class="lead rv d1" style="color:#555">Cada treino existe por um motivo específico e atua diretamente nos pontos que deixam a fala confusa, atropelada ou insegura. Você saberá exatamente:</p>
+      </div>
+      <div class="steps">
+        <div class="step rv"><h3>O que treinar</h3><p>Os pontos exatos que deixam sua fala confusa, atropelada ou insegura.</p></div>
+        <div class="step rv d1"><h3>Como treinar</h3><p>Exercícios objetivos, com orientação clara e passo a passo.</p></div>
+        <div class="step rv d2"><h3>Por que o exercício funciona</h3><p>Você entende o motivo de cada treino — e pratica com segurança.</p></div>
+      </div>
+      <p class="quote-big rv">Você não vai aprender “teorias sobre falar melhor”.<br>Vai aprender exatamente como treinar sua dicção para ser <em>compreendido de forma clara e impactante.</em></p>
+      <div class="cta-wrap rv">
+        <a class="btn magnetic" href="#oferta">Quero falar sem medo! <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      </div>
+    </div>
+  </div>
+  <img class="edge bot" src="assets/04-baixo.webp" alt="" width="886" height="176" loading="lazy">
+</section>
+
+<!-- LAB: desafio do trava-língua -->
+<section class="lab" id="desafio">
+  <div class="container lab-grid">
+    <div class="lab-copy">
+      <span class="eyebrow rv">Experimente agora · leva 30 segundos</span>
+      <h2 class="rv d1">Desafio do <em>trava-língua</em></h2>
+      <p class="lead rv d2">Escolha um nível, toque no microfone e leia a frase em voz alta. Em segundos você vê sua precisão — palavra por palavra.</p>
+      <p class="lab-hint rv d3">É assim que o Dicção Precisa funciona: você descobre exatamente <strong>o que</strong> treinar, <strong>como</strong> treinar e <strong>por que</strong> o exercício funciona.</p>
+      <p class="lab-note rv d4"><span aria-hidden="true">🔒</span><span>Funciona melhor no Google Chrome. O áudio é processado pelo reconhecimento de voz do seu navegador e não é gravado nem salvo por esta página.</span></p>
+    </div>
+    <div class="lab-card rv d1">
+      <div class="levels" role="tablist" aria-label="Nível do desafio">
+        <span class="lv-ind" aria-hidden="true"></span>
+        <button type="button" role="tab" aria-selected="true" data-lv="facil">Fácil</button>
+        <button type="button" role="tab" aria-selected="false" data-lv="medio">Intermediário</button>
+        <button type="button" role="tab" aria-selected="false" data-lv="dificil">Avançado</button>
+      </div>
+      <p class="phrase" id="phrase"></p>
+      <canvas class="wave" id="wave" width="1200" height="140" aria-hidden="true"></canvas>
+      <div class="mic-row">
+        <button class="mic" id="mic" type="button" aria-label="Começar a gravar"><span class="ring"></span><span class="ring r2"></span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0014 0M12 18v3"/></svg></button>
+        <div class="mic-state" id="micState" aria-live="polite"><b>Toque no microfone</b><small>e leia a frase em voz alta</small></div>
+      </div>
+      <p class="heard" id="heard" aria-live="polite"></p>
+      <div class="self" id="self" hidden>
+        <p>Seu navegador não tem reconhecimento de voz. Leia a frase <strong>3 vezes seguidas, rápido</strong>. Como foi?</p>
+        <div class="opts"><button type="button" data-s="45">Travei / embolei</button><button type="button" data-s="75">Saiu quase tudo</button><button type="button" data-s="95">Saiu perfeito</button></div>
+      </div>
+      <div class="result" id="result" hidden>
+        <div class="score" id="score"><b id="scoreN">0</b><small>%</small></div>
+        <div><h3 id="resT"></h3><p id="resP"></p><a class="btn" href="#oferta">Quero treinar minha dicção <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- INSIDE -->
+<section class="inside dark" id="dentro">
+  <div class="container">
+    <div class="sec-head center">
+      <span class="eyebrow light rv">Conheça por dentro</span>
+      <h2 class="rv d1">o Dicção Precisa <em>não é um Curso Teórico.</em></h2>
+      <p class="lead rv d2">É uma Ferramenta Prática de dicção, feita para treinar e evoluir — direto ao ponto, sem enrolação nem conteúdo que não muda sua fala.</p>
+    </div>
+    <div class="mockup rv" id="mockup">
+      <div class="glow"></div>
+      <img src="assets/09-Mockup.webp" alt="Área de membros do Dicção Precisa em computador, notebook, tablet e celular" width="1099" height="532" loading="lazy">
+    </div>
+    <div class="bento">
+      <div class="cell c1 rv"><span class="tag">Prática de dicção</span><h3>Treinar e evoluir</h3><p>É uma Ferramenta Prática de dicção, feita para treinar e evoluir — direto ao ponto, sem enrolação nem conteúdo que não muda sua fala.</p></div>
+      <div class="cell c2 rv d1"><span class="tag">Exercícios Curtos</span><h3>Poucos minutos por dia</h3><p>E o melhor: os exercícios são curtos e objetivos. Você pratica em poucos minutos por dia e, ainda assim, vê progresso real na sua fala.</p>
+        <div class="minutes" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div>
+      <div class="cell c3 rv"><div class="stat"><b data-count="5">0</b><span>Módulos<br>progressivos</span></div></div>
+      <div class="cell c4 rv d1"><div class="stat"><b data-count="19">0</b><span>Aulas em vídeo<br>+ 19 materiais de apoio</span></div></div>
+      <div class="cell c5 rv d2"><div class="stat"><b data-count="10">0</b><span>minutos por dia<br>é tudo o que você precisa</span></div></div>
+      <div class="cell c6 rv d3"><div class="stat"><b>∞</b><span>Acesso vitalício<br>assista quando e onde quiser</span></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- CURRICULUM -->
+<section class="curr" id="conteudo">
+  <div class="container curr-grid">
+    <aside class="curr-side">
+      <span class="eyebrow rv">Conteúdo completo</span>
+      <h2 class="rv d1">5 Módulos + 19 Aulas em vídeo + <em>Materiais de Apoio + Bônus</em></h2>
+      <p class="big rv d2">Comece pelo <em>Quiz Diagnóstico</em> e saiba exatamente por qual módulo começar a treinar sua fala.</p>
+      <div class="rv d3"><a class="btn magnetic" href="#oferta">Quero acesso agora <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
+    </aside>
+    <div class="modules">
+      <details class="mod rv" open><summary><span class="badge">01</span><span><small>Módulo 1</small><b>Boas-Vindas e Primeiros Passos</b></span><span class="plus">+</span></summary>
+        <ul><li>Aula 1 | Por que sua dicção é tão importante</li><li>Aula 2 | Como sua boca forma os sons</li><li>Aula 3 | O erro mais comum de quem tem uma dicção ruim</li><li class="mat">Material de Apoio individual para cada aula</li></ul></details>
+      <details class="mod bonus rv"><summary><span class="badge">★</span><span><small>Quiz Bônus</small><b>“Quiz Diagnóstico da Dicção”</b></span><span class="plus">+</span></summary>
+        <p class="desc">Revela seu nível (iniciante, intermediário ou avançado) e mostra exatamente por qual módulo você deve começar a treinar sua fala.</p></details>
+      <details class="mod rv"><summary><span class="badge">02</span><span><small>Módulo 2 · Nível Fácil</small><b>Exercícios Básicos para a Dicção</b></span><span class="plus">+</span></summary>
+        <ul><li>Aula 1 | Exercício das vogais</li><li>Aula 1.2 | Exercício das vogais com bônus</li><li>Aula 2 | Exercício dedo entre os dentes</li><li>Aula 3 | Exercício das sílabas</li><li>Aula 4 | Exercício Bônus</li><li class="mat">Material de Apoio individual para cada aula</li></ul></details>
+      <details class="mod rv"><summary><span class="badge">03</span><span><small>Módulo 3 · Nível Intermediário e Avançado</small><b>Exercícios para cada situação</b></span><span class="plus">+</span></summary>
+        <ul><li>Aula 1 | Treino para antes de uma reunião</li><li>Aula 2 | Treino para antes de gravar vídeos (e áudios)</li><li>Aula 3 | Treino antes de conversas importantes</li><li class="mat">Material de Apoio individual para cada aula</li></ul></details>
+      <details class="mod rv"><summary><span class="badge">04</span><span><small>Módulo 4</small><b>Exercícios para sons específicos e palavras extensas</b></span><span class="plus">+</span></summary>
+        <ul><li>Aula 1 | Encontros consonantais: r e l</li><li>Aula 2 | Sons recorrentes: S, X (ch), R</li><li>Aula 3 | Treine palavras extensas</li><li class="mat">Material de Apoio individual para cada aula</li></ul></details>
+      <details class="mod rv"><summary><span class="badge">05</span><span><small>Módulo 5</small><b>Aplicação na vida real</b></span><span class="plus">+</span></summary>
+        <ul><li>Aula 1 | Exercício de aquecimento rápido — Coringa para os dias corridos</li><li>Aula 2 | Como manter a prática no dia a dia</li><li class="mat">Material de Apoio individual para cada aula</li></ul></details>
+      <details class="mod bonus rv"><summary><span class="badge">★</span><span><small>Aula Bônus</small><b>Treino de Dicção + Como Melhorar o Vocabulário</b></span><span class="plus">+</span></summary>
+        <p class="desc">Sua fala é a ponte entre quem você é e o que o mundo vê.</p></details>
+    </div>
+  </div>
+</section>
+
+<!-- BONUS -->
+<section class="bonus" id="bonus">
+  <div class="container">
+    <div class="sec-head center">
+      <span class="eyebrow rv">Presentes exclusivos</span>
+      <h2 class="rv d1">E ainda leva <em>6 bônus</em> para acelerar sua evolução</h2>
+      <p class="lead rv d2">Tudo incluso no mesmo investimento, sem nenhum custo adicional.</p>
+    </div>
+    <div class="bonus-grid">
+      <article class="bcard rv"><span class="free">Bônus 1</span><div class="bcard-in"><div class="img"><img src="assets/29-B.webp" alt="" loading="lazy" width="569" height="418"></div><div><span class="lbl">Incluso</span><h3>Acesso Vitalício</h3><p>Use, revise e pratique quando quiser, para sempre.</p></div></div></article>
+      <article class="bcard rv d1"><span class="free">Bônus 2</span><div class="bcard-in"><div class="img"><img src="assets/30-B.webp" alt="" loading="lazy" width="375" height="384"></div><div><span class="lbl">Incluso</span><h3>Banco de Trava-línguas</h3><p>Para você ter mais opções de treino.</p></div></div></article>
+      <article class="bcard rv d2"><span class="free">Bônus 3</span><div class="bcard-in"><div class="img"><img src="assets/31-B.webp" alt="" loading="lazy" width="484" height="300"></div><div><span class="lbl">Incluso</span><h3>Acervo de Palavras Desafiadoras</h3><p>Para você perder o medo de falar palavras complexas.</p></div></div></article>
+      <article class="bcard rv"><span class="free">Bônus 4</span><div class="bcard-in"><div class="img"><img src="assets/32-B.webp" alt="" loading="lazy" width="433" height="399"></div><div><span class="lbl">Incluso</span><h3>Dicas de livros</h3><p>Para a comunicação, para potencializar seus estudos.</p></div></div></article>
+      <article class="bcard rv d1"><span class="free">Bônus 5</span><div class="bcard-in"><div class="img"><div class="book" aria-hidden="true"><div class="book-in"><div class="pages"></div><div class="page1">Comunicação verbal<br>e não verbal<br>com clareza</div><div class="cover"><small>E-book</small><b>O Caminho Para a Comunicação Influente</b><i>Bruna Santos</i></div></div></div></div><div><span class="lbl">Incluso</span><h3>E-book “O Caminho Para a Comunicação Influente”</h3><p>Para te trazer clareza sobre comunicação verbal e não verbal.</p></div></div></article>
+      <article class="bcard rv d2"><span class="free">Bônus 6</span><div class="bcard-in"><div class="img"><img src="assets/34-B.webp" alt="" loading="lazy" width="438" height="300"></div><div><span class="lbl">Incluso</span><h3>Aula Bônus</h3><p>Sua fala é a ponte entre quem você é e o que o mundo vê.</p></div></div></article>
+    </div>
+    <div class="cta-wrap rv">
+      <a class="btn lg magnetic" href="#oferta">Quero acesso ao Método e aos bônus <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- FOR WHOM -->
+<section class="who">
+  <div class="container">
+    <div class="sec-head center">
+      <span class="eyebrow rv">Para quem é</span>
+      <h2 class="rv d1">O Dicção Precisa foi <em>feito para quem</em></h2>
+    </div>
+    <div class="who-grid">
+      <div class="who-card rv">
+        <h3>É para você se…</h3>
+        <ul class="list yes">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>Deseja falar sem medo, com clareza e segurança.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>Quer ser compreendido no ambiente profissional.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>Está cansado de não ser entendido porque fala rápido ou embolado.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>Fica nervoso ao falar diante de grupos.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>Busca treinos objetivos e sem enrolação.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>Tem dificuldade em sons específicos e palavras extensas.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>Deseja ser visto com credibilidade e autoridade.</li>
+        </ul>
+      </div>
+      <div class="who-card no rv d1">
+        <h3>Não é para você se…</h3>
+        <ul class="list nope">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 6l12 12M18 6L6 18"/></svg>Procura teoria longa em vez de prática direta.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 6l12 12M18 6L6 18"/></svg>Não está disposto(a) a reservar 10 minutos por dia.</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M6 6l12 12M18 6L6 18"/></svg>Precisa de tratamento para distúrbios da fala (trocas de sons, gagueira, ceceio) — nesses casos, procure uma avaliação fonoaudiológica.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cta-wrap rv">
+      <a class="btn magnetic" href="#oferta">Esse método é para mim <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="proof" id="depoimentos">
+  <div class="container">
+    <div class="sec-head center">
+      <span class="eyebrow rv">Resultados reais</span>
+      <h2 class="rv d1">Veja o que os alunos dizem <em>após aplicarem o método</em></h2>
+      <p class="lead rv d2">Mensagens reais enviadas pelos alunos. Toque em uma para ampliar.</p>
+    </div>
+    <div class="wall rv" id="wall"></div>
+  </div>
+</section>
+
+<!-- OFFER -->
+<section class="offer" id="oferta">
+  <div class="container">
+    <div class="sec-head center">
+      <span class="eyebrow light rv">Oferta especial</span>
+      <h2 class="rv d1">Garantindo o Dicção Precisa hoje, <em>você recebe</em></h2>
+    </div>
+    <div class="offer-grid">
+      <div class="stack rv">
+        <h3>Método completo</h3>
+        <ul class="list yes">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>5 Módulos</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>19 Aulas em Vídeo</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>19 Materiais de Apoio</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>Diagnóstico de Dicção</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>Acesso Vitalício</li>
+        </ul>
+        <hr>
+        <span class="gift">✦ Bônus</span>
+        <ul class="list yes">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>Treino de Dicção + Como Melhorar o Vocabulário</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>Banco de Trava-Línguas</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>Acervo de Palavras Desafiadoras</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>Dicas de Livros para Comunicação</li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12l5 5 9-10"/></svg>E-book “O Caminho Para a Comunicação Assertiva”</li>
+        </ul>
+      </div>
+      <div class="price-card tilt rv d1"><span class="glare"></span>
+        <div class="price-in">
+          <img class="logo" src="assets/21-LOGO.webp" alt="Bruna Santos" width="250" height="54" loading="lazy">
+          <span class="ribbon">Dicção Precisa</span>
+          <div class="perks"><span>Acesso imediato</span><span>Sem mensalidade</span><span>Assista quando e onde quiser</span></div>
+          <p class="from">De <s>R$197,00</s> por apenas</p>
+          <div class="price"><span class="x">6x</span><span class="rs">R$</span><span class="v">8,82</span></div>
+          <p class="cash">ou apenas <b>R$ 47,00</b> à vista</p>
+          <span class="save">Você economiza R$150 (76% OFF)</span>
+          <a class="btn lg block magnetic" href="https://pay.hotmart.com/U103354924R?checkoutMode=10&amp;sck=na%5Cna%5Cna%5Cna%5Cna" rel="noopener">Esse método é para mim <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+          <img class="pay" src="assets/22-Cartao.webp" alt="Formas de pagamento" width="300" height="20" loading="lazy">
+          <div class="secure">
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 018 0v3"/></svg>Compra 100% segura</span>
+            <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/></svg>Garantia de 7 dias</span>
+          </div>
+          <p class="daily">Menos de R$ 1,60 por dia no primeiro mês — e o acesso é para sempre.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="sobre">
+  <div class="container about-grid">
+    <div class="photo rv">
+      <img src="assets/23-Foto-Bio-1.webp" alt="Bruna Santos, fonoaudióloga" width="420" height="580" loading="lazy">
+      <div class="cred"><b>6 anos</b><small>de atuação em voz e comunicação</small></div>
+    </div>
+    <div class="about-copy">
+      <span class="eyebrow rv">Sobre a criadora do Método Dicção Precisa</span>
+      <p class="name rv d1">Bruna Santos</p>
+      <div class="creds rv d2"><span class="chip"><i></i>Fonoaudióloga</span><span class="chip"><i></i>Mestre em Fonoaudiologia — UNESP/Marília</span></div>
+      <p class="rv d2">Atuo há <strong>seis anos com o aperfeiçoamento da voz e comunicação</strong> de pessoas que desejam alcançar uma comunicação de influência para o ambiente de trabalho e relações pessoais.</p>
+      <p class="rv d3">Trabalhar com voz e comunicação é muito mais do que um privilégio — é uma missão com o propósito de <strong>mostrar o poder que a boa comunicação pode gerar</strong> nas relações e no ambiente de trabalho.</p>
+      <p class="rv d3">Meu objetivo é mostrar que a <strong>influência e assertividade</strong> são alcançadas por meio da <strong>organização e clareza da fala</strong>, com estratégias seguras e <strong>com embasamento científico da Fonoaudiologia associada às técnicas de Oratória.</strong></p>
+      <p class="rv d4">Assim, todos podem potencializar sua comunicação, ter a voz ouvida e seu valor reconhecido.</p>
+      <p class="rv d5">Se você está buscando direção, clareza, assertividade e influência ao se comunicar, eu sou a profissional que irá te direcionar nesse processo e trazer a transformação que você tanto sonha na sua comunicação.</p>
+      <div class="sign-wrap"><svg class="sign rv" id="sign" viewBox="0 0 440 120" role="img" aria-label="Assinatura de Bruna Santos"><text x="6" y="88">Bruna Santos</text></svg><small>Fonoaudióloga · criadora do Método Dicção Precisa</small></div>
+    </div>
+  </div>
+</section>
+
+<!-- GUARANTEE -->
+<section class="guarantee">
+  <div class="container">
+    <div class="g-card rv">
+      <svg class="seal" viewBox="0 0 120 120" aria-hidden="true"><defs><path id="c" d="M60 60m-46 0a46 46 0 1 1 92 0a46 46 0 1 1-92 0"/></defs><text><textPath href="#c">Risco zero · Garantia incondicional · Risco zero · </textPath></text></svg>
+      <img src="assets/25-Garantia.webp" alt="Garantia de 7 dias" width="252" height="362" loading="lazy">
+      <div>
+        <span class="eyebrow">Garantia incondicional</span>
+        <h2 style="margin-top:16px">Aplique o Método Dicção Precisa <em>por 7 dias.</em></h2>
+        <p>Se você não perceber uma evolução real na sua dicção, devolvemos 100% do seu dinheiro. Sem burocracia e sem perguntas. É um compromisso de confiança com a sua transformação.</p>
+        <div class="cta-wrap">
+          <a class="btn magnetic" href="#oferta">Quero transformar minha fala para sempre <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="narrow">
+    <div class="sec-head center">
+      <span class="eyebrow rv">FAQ</span>
+      <h2 class="rv d1">Ainda tem <em>alguma dúvida?</em></h2>
+    </div>
+    <div class="faq-list">
+      <details class="qa rv"><summary>Onde recebo o acesso ao Método?<span class="plus">+</span></summary><div class="ans"><div><p>Assim que a compra é confirmada, você recebe o acesso imediato por e-mail, para entrar na área de membros.</p></div></div></details>
+      <details class="qa rv"><summary>Por quanto tempo terei acesso ao conteúdo?<span class="plus">+</span></summary><div class="ans"><div><p>O acesso é vitalício — você pode usar, revisar e praticar quando quiser, para sempre.</p></div></div></details>
+      <details class="qa rv"><summary>O Dicção Precisa é um curso?<span class="plus">+</span></summary><div class="ans"><div><p>Não. O Dicção Precisa é uma ferramenta prática de dicção, com exercícios diretos, objetivos e aplicáveis no dia a dia, sem enrolação.</p></div></div></details>
+      <details class="qa rv"><summary>Eu nunca treinei dicção. Vou conseguir acompanhar?<span class="plus">+</span></summary><div class="ans"><div><p>Sim. O método foi criado para qualquer pessoa que precise melhorar sua fala. Além disso, o Diagnóstico de Dicção mostra exatamente o seu nível e em qual módulo você deve começar.</p></div></div></details>
+      <details class="qa rv"><summary>Preciso de algum material especial para praticar?<span class="plus">+</span></summary><div class="ans"><div><p>Não. Tudo o que você precisa é o seu celular ou computador, e alguns minutos por dia para realizar os exercícios.</p></div></div></details>
+      <details class="qa rv"><summary>Funciona mesmo se minha fala for “muito ruim”?<span class="plus">+</span></summary><div class="ans"><div><p>Funciona. Os módulos são organizados por níveis (iniciante, médio, avançado), justamente para acompanhar qualquer pessoa — inclusive quem está começando do zero.</p></div></div></details>
+      <details class="qa rv"><summary>Quantos minutos por dia preciso praticar?<span class="plus">+</span></summary><div class="ans"><div><p>10 minutos. Os exercícios são rápidos, diretos e pensados para se encaixar na sua rotina, sem esforço.</p></div></div></details>
+      <details class="qa rv"><summary>Serve para quem tem problemas na fala? Exemplo: trocas de sons, gagueira, ceceio, etc.<span class="plus">+</span></summary><div class="ans"><div><p>Não. Nesses casos, é importante buscar uma avaliação fonoaudiológica com um profissional da área. O método serve apenas para aprimoramento da Dicção e não para tratamento da fala.</p></div></div></details>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="final">
+  <div class="rays" aria-hidden="true"></div>
+  <div class="container">
+    <span class="eyebrow light rv">A decisão é sua</span>
+    <h2 class="rv d1">Sua fala é a ponte entre quem você é e <em>o que o mundo vê.</em></h2>
+    <p class="lead rv d2">Daqui a 7 dias você pode continuar pedindo desculpas por “falar embolado” — ou já estar treinando com um método criado por uma fonoaudióloga, com risco zero.</p>
+    <div class="cta-wrap rv d3">
+      <a class="btn lg magnetic" href="#oferta">Quero falar sem medo! <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <div class="cta-micro">
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3l8 4v5c0 5-3.5 8-8 9-4.5-1-8-4-8-9V7z"/><path d="M9 12l2 2 4-4"/></svg>Garantia de 7 dias</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L4 14h7l-1 8 9-12h-7z"/></svg>Acesso imediato</span>
+        <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>10 minutos por dia</span>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="container">
+    <img src="assets/21-LOGO.webp" alt="Bruna Santos" width="250" height="54" loading="lazy">
+    <span>© <span id="yr"></span> Bruna Santos · Método Dicção Precisa. Todos os direitos reservados.</span>
+    <span>Este produto não substitui avaliação ou tratamento fonoaudiológico.</span>
+  </div>
+</footer>
+
+<!-- STICKY CTA -->
+<div class="island" id="island" aria-hidden="true">
+  <div class="t"><small>Dicção Precisa · Garantia 7 dias</small><b>6x R$8,82 ou R$47 à vista</b></div>
+  <a class="btn" href="#oferta" tabindex="-1">Quero agora</a>
+</div>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lb" role="dialog" aria-modal="true" aria-label="Depoimento ampliado"><button type="button" aria-label="Fechar">×</button><img alt="Depoimento de aluno"></div>
+
+<script>
+(() => {
+  const CHECKOUT = "https://pay.hotmart.com/U103354924R?checkoutMode=10&sck=na%5Cna%5Cna%5Cna%5Cna";
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  // Hero title: word-by-word reveal
+  const h1 = document.getElementById('heroTitle');
+  let i = 0;
+  h1.querySelectorAll(':scope > em, :scope').forEach(()=>{});
+  const wrap = (node) => {
+    const frag = document.createDocumentFragment();
+    node.childNodes.forEach(n => {
+      if (n.nodeType === 3) {
+        n.textContent.split(/(\s+)/).forEach(t => {
+          if (!t) return;
+          if (/^\s+$/.test(t)) { frag.append(' '); return; }
+          const w = document.createElement('span'); w.className = 'word';
+          const s = document.createElement('span'); s.textContent = t; s.style.animationDelay = (0.15 + i++ * 0.09) + 's';
+          w.append(s); frag.append(w);
+        });
+      } else {
+        const w = document.createElement('span'); w.className = 'word';
+        const s = document.createElement('span'); s.append(n.cloneNode(true)); s.style.animationDelay = (0.15 + i++ * 0.09) + 's';
+        w.append(s); frag.append(w);
+      }
+    });
+    node.replaceChildren(frag);
+  };
+  wrap(h1);
+
+  // Testimonials wall (3 columns, duplicated for seamless loop)
+  const shots = ['01','02','03','04','08','07','06','05','09','10','11','12'];
+  const wall = document.getElementById('wall');
+  const cols = [[],[],[]];
+  shots.forEach((s, k) => cols[k % 3].push(s));
+  cols.forEach((c, k) => {
+    const col = document.createElement('div');
+    col.className = 'col' + (k === 1 ? ' r' : k === 2 ? ' s' : '');
+    [...c, ...c].forEach((s, j) => {
+      const b = document.createElement('button');
+      b.className = 'shot'; b.type = 'button';
+      if (j >= c.length) { b.setAttribute('aria-hidden','true'); b.tabIndex = -1; }
+      b.innerHTML = `<img src="assets/${s}.webp" alt="Depoimento de aluno ${s}" loading="lazy">`;
+      b.addEventListener('click', () => openLb(`assets/${s}.webp`));
+      col.append(b);
+    });
+    wall.append(col);
+  });
+
+  // Lightbox
+  const lb = document.getElementById('lb'), lbImg = lb.querySelector('img');
+  const openLb = src => { lbImg.src = src; lb.classList.add('open'); };
+  const closeLb = () => lb.classList.remove('open');
+  lb.addEventListener('click', e => { if (e.target !== lbImg) closeLb(); });
+  addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); });
+
+  // All "#oferta" CTAs on the offer card itself go to checkout; others scroll to offer
+  // (keeps the visitor seeing price + guarantee before checkout)
+
+  // Reveal on scroll
+  const io = new IntersectionObserver(es => es.forEach(e => {
+    if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+  }), { threshold: .15, rootMargin: '0px 0px -40px 0px' });
+  document.querySelectorAll('.rv,.hl').forEach(el => io.observe(el));
+
+  // Counters
+  const cio = new IntersectionObserver(es => es.forEach(e => {
+    if (!e.isIntersecting) return;
+    const el = e.target, end = +el.dataset.count, t0 = performance.now(), dur = 1400;
+    const tick = t => { const p = Math.min(1, (t - t0) / dur); el.textContent = Math.round(end * (1 - Math.pow(1 - p, 3))); if (p < 1) requestAnimationFrame(tick); };
+    reduce ? (el.textContent = end) : requestAnimationFrame(tick);
+    cio.unobserve(el);
+  }), { threshold: .6 });
+  document.querySelectorAll('[data-count]').forEach(el => cio.observe(el));
+
+  // Pain self-diagnosis
+  const cards = [...document.querySelectorAll('.pain-card')];
+  const bar = document.getElementById('painBar'), txt = document.getElementById('painText');
+  const msgs = [
+    'Marque as situações acima para ver seu resultado.',
+    'Você marcou <b>1 de 6</b>. Mesmo um único ponto já mina a sua confiança ao falar — e ele pode ser treinado.',
+    'Você marcou <b>2 de 6</b>. Sua dicção está pedindo um treino direcionado.',
+    'Você marcou <b>3 de 6</b>. Metade dos sinais. O Quiz Diagnóstico vai mostrar exatamente por onde começar.',
+    'Você marcou <b>4 de 6</b>. Sua fala está te custando oportunidades — e isso tem solução.',
+    'Você marcou <b>5 de 6</b>. Você é exatamente a pessoa para quem o Dicção Precisa foi criado.',
+    'Você marcou <b>6 de 6</b>. Chegou a hora de transformar sua fala — de forma prática e segura.'
+  ];
+  cards.forEach(c => c.addEventListener('click', () => {
+    c.classList.toggle('on'); c.setAttribute('aria-pressed', c.classList.contains('on'));
+    const n = cards.filter(x => x.classList.contains('on')).length;
+    bar.style.width = (n / 6 * 100) + '%'; txt.innerHTML = msgs[n];
+  }));
+  cards.forEach(c => c.setAttribute('aria-pressed','false'));
+
+  // Spotlight cursor on cards
+  document.querySelectorAll('.pain-card,.cell').forEach(el => el.addEventListener('pointermove', e => {
+    const r = el.getBoundingClientRect();
+    el.style.setProperty('--mx', (e.clientX - r.left) + 'px'); el.style.setProperty('--my', (e.clientY - r.top) + 'px');
+  }));
+
+  // Magnetic buttons
+  if (!reduce && matchMedia('(pointer:fine)').matches) {
+    document.querySelectorAll('.magnetic').forEach(b => {
+      b.addEventListener('pointermove', e => {
+        const r = b.getBoundingClientRect();
+        const x = (e.clientX - r.left - r.width / 2) * .18, y = (e.clientY - r.top - r.height / 2) * .3;
+        b.style.transform = `translate(${x}px,${y}px)`;
+      });
+      b.addEventListener('pointerleave', () => b.style.transform = '');
+    });
+  }
+
+  // Scroll: progress, nav, sticky island, mockup parallax
+  const nav = document.getElementById('nav'), prog = document.getElementById('progress'), island = document.getElementById('island');
+  const offer = document.getElementById('oferta'), hero = document.querySelector('.hero'), mock = document.querySelector('#mockup img');
+  
+  function onScroll() {
+    const y = scrollY, h = document.documentElement.scrollHeight - innerHeight;
+    prog.style.transform = `scaleX(${h ? y / h : 0})`;
+    nav.classList.toggle('scrolled', y > 30);
+    const or = offer.getBoundingClientRect(); const offerVisible = or.top < innerHeight * .85 && or.bottom > innerHeight * .15;
+    const show = y > hero.offsetHeight * .8 && !offerVisible;
+    island.classList.toggle('show', show);
+    island.setAttribute('aria-hidden', !show);
+    island.querySelector('a').tabIndex = show ? 0 : -1;
+    if (mock && !reduce) {
+      const r = mock.getBoundingClientRect(), p = (r.top + r.height / 2 - innerHeight / 2) / innerHeight;
+      mock.style.transform = `perspective(1400px) rotateX(${Math.max(-12, Math.min(12, p * 18))}deg) scale(${1 - Math.abs(p) * .06})`;
+    }
+  }
+  addEventListener('scroll', onScroll, { passive: true }); onScroll();
+
+  // ===== Blur word reveal on h2 =====
+  document.querySelectorAll('h2.rv').forEach(h => {
+    let n = 0;
+    const walk = node => [...node.childNodes].forEach(c => {
+      if (c.nodeType === 3) {
+        const frag = document.createDocumentFragment();
+        c.textContent.split(/(\s+)/).forEach(t => {
+          if (!t) return;
+          if (/^\s+$/.test(t)) { frag.append(' '); return; }
+          const sp = document.createElement('span'); sp.className = 'bw'; sp.style.setProperty('--i', n++); sp.textContent = t; frag.append(sp);
+        });
+        c.replaceWith(frag);
+      } else if (c.nodeType === 1 && c.tagName !== 'BR') walk(c);
+    });
+    walk(h);
+  });
+
+  // ===== Story: embolado -> claro =====
+  const story = document.getElementById('story');
+  if (story) {
+    const el = document.getElementById('storyText');
+    const glyphs = 'abcdefghijlmnopqrstuvxzãçéõ';
+    const chars = [];
+    const build = (src, dst) => [...src.childNodes].forEach(c => {
+      if (c.nodeType === 3) {
+        c.textContent.split(/(\s+)/).forEach(w => {
+          if (!w) return;
+          if (/^\s+$/.test(w)) { dst.append(' '); return; }
+          const wd = document.createElement('span'); wd.className = 'wd'; wd.setAttribute('aria-hidden', 'true');
+          [...w].forEach(ch => {
+            const sp = document.createElement('span'); sp.className = 'ch'; sp.textContent = ch;
+            sp.style.setProperty('--j', (Math.random() * 10 - 5).toFixed(1));
+            chars.push({ sp, ch, t: Math.random() * .78 + .06, punct: /[.,!?]/.test(ch) });
+            wd.append(sp);
+          });
+          dst.append(wd);
+        });
+      } else if (c.nodeType === 1) { const e = document.createElement(c.tagName); build(c, e); dst.append(e); }
+    });
+    const src = el.cloneNode(true); el.textContent = ''; build(src, el);
+    const bar = document.getElementById('storyBar'), pct = document.getElementById('storyPct'), lab = document.getElementById('storyLabel'), cap = document.getElementById('storyCap'), wave = document.getElementById('storyWave');
+    let p = reduce ? 1 : 0, active = false, tt = 0;
+    const render = () => {
+      chars.forEach(o => {
+        const ok = o.punct || p >= o.t;
+        o.sp.classList.toggle('ok', ok);
+        o.sp.textContent = ok ? o.ch : glyphs[Math.random() * glyphs.length | 0];
+      });
+      bar.style.width = (p * 100) + '%'; pct.textContent = Math.round(p * 100) + '%';
+      story.style.setProperty('--p', p.toFixed(3));
+      lab.textContent = p < .34 ? 'Fala embolada' : p < .7 ? 'Ganhando clareza' : p < .98 ? 'Quase lá' : 'Clara e precisa';
+      cap.textContent = p >= .98 ? 'Com um treino claro, prático e eficaz.' : '\u00a0';
+    };
+    const drawWave = () => {
+      tt += .07;
+      const amp = 8 + (1 - p) * 30, chaos = (1 - p);
+      let d = '';
+      for (let x = 0; x <= 640; x += 8) {
+        const env = Math.sin(Math.PI * x / 640);
+        const y = 45 + env * (Math.sin(x * .045 + tt) * amp * (.5 + .5 * p) + chaos * (Math.sin(x * .31 + tt * 3.1) * 14 + (Math.random() - .5) * 26));
+        d += (x ? ' L' : 'M') + x + ' ' + y.toFixed(1);
+      }
+      wave.setAttribute('d', d);
+    };
+    const onS = () => {
+      if (reduce) return;
+      const r = story.getBoundingClientRect(), total = r.height - innerHeight;
+      p = Math.min(1, Math.max(0, (-r.top) / (total * .85)));
+    };
+    new IntersectionObserver(([e]) => { active = e.isIntersecting; }).observe(story);
+    addEventListener('scroll', onS, { passive: true }); onS();
+    let last = 0;
+    const loop = t => { if (active && t - last > 70) { render(); drawWave(); last = t; } requestAnimationFrame(loop); };
+    render(); drawWave();
+    if (!reduce) requestAnimationFrame(loop);
+  }
+
+  // ===== Lab: desafio do trava-língua =====
+  const TW = {
+    facil: 'O rato roeu a roupa do rei de Roma',
+    medio: 'Três pratos de trigo para três tigres tristes',
+    dificil: 'O peito do pé de Pedro é preto, quem disser que o peito do pé de Pedro não é preto tem o peito do pé mais preto que o peito do pé de Pedro'
+  };
+  const levels = document.querySelector('.levels'), ind = levels.querySelector('.lv-ind'), tabs = [...levels.querySelectorAll('button')];
+  const phraseEl = document.getElementById('phrase'), mic = document.getElementById('mic'), micState = document.getElementById('micState');
+  const heard = document.getElementById('heard'), result = document.getElementById('result'), selfBox = document.getElementById('self');
+  const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
+  let level = 'facil';
+  const norm = t => t.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^a-z0-9\s]/g, ' ').split(/\s+/).filter(Boolean);
+  const setState = (b, sm) => { micState.innerHTML = '<b>' + b + '</b><small>' + sm + '</small>'; };
+  const showPhrase = () => {
+    phraseEl.innerHTML = TW[level].split(' ').map((w, i) => '<span class="w" style="--i:' + i + '">' + w + '</span>').join(' ');
+    result.hidden = true; heard.textContent = '';
+    if (!SR) { selfBox.hidden = false; setState('Leia em voz alta', 'e avalie como foi'); }
+  };
+  const moveInd = () => {
+    const b = tabs.find(t => t.dataset.lv === level);
+    ind.style.width = b.offsetWidth + 'px'; ind.style.transform = 'translateX(' + (b.offsetLeft - 5) + 'px)';
+  };
+  tabs.forEach(b => b.addEventListener('click', () => {
+    if (recording) stopRec();
+    level = b.dataset.lv; tabs.forEach(t => t.setAttribute('aria-selected', t === b)); moveInd(); showPhrase();
+  }));
+  addEventListener('resize', moveInd);
+  const feedback = sc => {
+    const [t, p] = sc >= 90 ? ['Excelente dicção!', 'Agora tente o próximo nível. Manter essa clareza em reuniões, vídeos e conversas importantes é o que o Módulo 3 treina.']
+      : sc >= 70 ? ['Quase lá!', 'Alguns sons escaparam — encontros consonantais e sons como S, X e R são exatamente o que o Módulo 4 treina.']
+      : ['Normal no começo.', 'Sua dicção não foi treinada da forma correta. Com o Quiz Diagnóstico você descobre seu nível e por onde começar.'];
+    document.getElementById('resT').textContent = t; document.getElementById('resP').textContent = p;
+    result.hidden = false;
+    const sEl = document.getElementById('score'), nEl = document.getElementById('scoreN'), t0 = performance.now();
+    const tick = now => { const k = Math.min(1, (now - t0) / 1200), v = Math.round(sc * (1 - Math.pow(1 - k, 3))); nEl.textContent = v; sEl.style.setProperty('--p', v); if (k < 1) requestAnimationFrame(tick); };
+    requestAnimationFrame(tick);
+  };
+  const scoreIt = text => {
+    const exp = norm(TW[level]), got = norm(text); let j = 0, hit = 0;
+    const spans = [...phraseEl.querySelectorAll('.w')];
+    exp.forEach((w, i) => {
+      const k = got.indexOf(w, j);
+      const ok = k !== -1 && k - j <= 3;
+      if (ok) { hit++; j = k + 1; }
+      spans[i] && spans[i].classList.add(ok ? 'ok' : 'miss');
+    });
+    return Math.round(hit / exp.length * 100);
+  };
+  selfBox.querySelectorAll('button').forEach(b => b.addEventListener('click', () => feedback(+b.dataset.s)));
+
+  // waveform canvas
+  const cv = document.getElementById('wave'), cx = cv.getContext('2d');
+  let analyser, stream, actx, recording = false, rec, finalText = '', t0rec = 0;
+  const drawIdle = (t) => {
+    const W = cv.width, H = cv.height, n = 64, bw = W / n;
+    cx.clearRect(0, 0, W, H);
+    let data = null;
+    if (analyser && recording) { data = new Uint8Array(analyser.frequencyBinCount); analyser.getByteFrequencyData(data); }
+    for (let i = 0; i < n; i++) {
+      const v = data ? data[Math.floor(i * data.length / n / 2)] / 255 : (.08 + .06 * Math.sin(t / 400 + i * .5));
+      const h = Math.max(4, v * H * .95);
+      cx.fillStyle = recording ? 'rgba(192,57,43,' + (.35 + v * .65) + ')' : 'rgba(87,47,39,.18)';
+      const x = i * bw + bw * .2, w = bw * .6;
+      cx.beginPath(); cx.roundRect ? cx.roundRect(x, (H - h) / 2, w, h, w / 2) : cx.rect(x, (H - h) / 2, w, h); cx.fill();
+    }
+    requestAnimationFrame(drawIdle);
+  };
+  requestAnimationFrame(drawIdle);
+
+  const stopRec = () => {
+    recording = false; mic.classList.remove('rec'); mic.setAttribute('aria-label', 'Começar a gravar');
+    try { rec && rec.stop(); } catch (e) {}
+    stream && stream.getTracks().forEach(t => t.stop()); stream = null;
+    actx && actx.close(); actx = null; analyser = null;
+  };
+  mic.addEventListener('click', async () => {
+    if (!SR) { selfBox.hidden = false; return; }
+    if (recording) { stopRec(); return; }
+    showPhrase(); finalText = '';
+    rec = new SR(); rec.lang = 'pt-BR'; rec.interimResults = true; rec.continuous = true; rec.maxAlternatives = 1;
+    rec.onresult = e => {
+      let interim = ''; finalText = '';
+      for (const r of e.results) { r.isFinal ? finalText += r[0].transcript + ' ' : interim += r[0].transcript; }
+      heard.textContent = '“' + (finalText + interim).trim() + '”';
+      const got = norm(finalText + interim), exp = norm(TW[level]);
+      if (got.length >= exp.length) stopRec();
+    };
+    rec.onerror = e => {
+      stopRec();
+      setState(e.error === 'not-allowed' || e.error === 'service-not-allowed' ? 'Microfone bloqueado' : 'Não consegui ouvir', e.error === 'not-allowed' ? 'Permita o microfone no navegador e tente de novo' : 'Toque no microfone e tente novamente');
+    };
+    rec.onend = () => {
+      const txt = (finalText || heard.textContent.replace(/[“”]/g, '')).trim();
+      if (recording) stopRec();
+      if (!txt) { if (!micState.textContent.includes('bloqueado')) setState('Não consegui ouvir', 'Fale um pouco mais alto e tente de novo'); return; }
+      const secs = ((performance.now() - t0rec) / 1000).toFixed(1).replace('.', ',');
+      setState('Pronto! Tempo: ' + secs + 's', 'Toque de novo para repetir');
+      feedback(scoreIt(txt));
+    };
+    try {
+      stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      actx = new (window.AudioContext || window.webkitAudioContext)();
+      analyser = actx.createAnalyser(); analyser.fftSize = 256;
+      actx.createMediaStreamSource(stream).connect(analyser);
+    } catch (e) { /* segue só com o reconhecimento */ }
+    try { rec.start(); } catch (e) {}
+    recording = true; t0rec = performance.now();
+    mic.classList.add('rec'); mic.setAttribute('aria-label', 'Parar gravação');
+    setState('Ouvindo…', 'Leia a frase em voz alta');
+  });
+  showPhrase(); requestAnimationFrame(moveInd);
+  if (document.fonts) document.fonts.ready.then(moveInd);
+
+  // ===== Tilt on price card =====
+  if (!reduce && matchMedia('(pointer:fine)').matches) {
+    document.querySelectorAll('.tilt').forEach(c => {
+      c.addEventListener('pointermove', e => {
+        const r = c.getBoundingClientRect(), x = (e.clientX - r.left) / r.width, y = (e.clientY - r.top) / r.height;
+        c.style.transform = 'perspective(1100px) rotateY(' + ((x - .5) * 8) + 'deg) rotateX(' + ((.5 - y) * 8) + 'deg)';
+        c.style.setProperty('--gx', x * 100 + '%'); c.style.setProperty('--gy', y * 100 + '%');
+      });
+      c.addEventListener('pointerleave', () => c.style.transform = '');
+    });
+  }
+
+  // FAQ: only one open at a time
+  document.querySelectorAll('.qa').forEach(d => d.addEventListener('toggle', () => {
+    if (d.open) document.querySelectorAll('.qa').forEach(o => o !== d && (o.open = false));
+  }));
+})();
+</script>
+</body>
+</html>
